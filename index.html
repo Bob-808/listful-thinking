@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Listful Thinking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    margin: 10px;
+  }
+
+  #app {
+    padding: 10px;
+  }
+
+  button {
+    padding: 12px;
+    margin: 5px;
+    font-size: 16px;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  input {
+    padding: 10px;
+    width: 80%;
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  .player {
+    padding: 10px;
+    background: #333;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .out {
+    background: #900;
+    text-decoration: line-through;
+  }
+
+  #answers {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .answer {
+    background: #222;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+.found {
+  text-decoration: line-through;
+  background: #444;
+  color: #888;
+}
+
+</style>
+</head>
+
+<body>
+<div id="app">
+
+<h1>Listful Thinking</h1>
+
+<div id="setup">
+  <h2>Add Players</h2>
+  <input id="playerInput" placeholder="Enter player name">
+  <button onclick="addPlayer()">Add Player</button>
+  <div id="playerList"></div>
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<div id="game" style="display:none;">
+  <h2 id="question"></h2>
+
+  <h3 id="currentPlayer"></h3>
+
+  <button onclick="markWrong()">Wrong Answer ❌</button>
+  <button onclick="nextTurn()">Skip ➡️</button>
+
+  <div id="players"></div>
+
+  <h3>Tap answers as they are guessed:</h3>
+  <div id="answers"></div>
+
+  <button onclick="nextQuestion()">Next Question</button>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
