@@ -20,7 +20,7 @@
   },
   {
     "id": "514b09d4-7b13-429b-9375-21219f60c8c1",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the real names of the Brady Bunch characters that appear in the 9 boxes during the opening credits.",
     "answers": [
@@ -39,7 +39,7 @@
   },
   {
     "id": "07730438-f1be-4ab9-b68f-8258c6cffb14",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 apostles.",
     "answers": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "8a624bad-edc6-41af-bb8d-1a56b2c606dc",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 14 NFL teams named for animals.",
     "answers": [
@@ -85,7 +85,7 @@
   },
   {
     "id": "e3d1f652-92dd-42a5-9a55-733e30645798",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 20 Best Picture Oscar winners from 1992 to 2011.",
     "answers": [
@@ -115,7 +115,7 @@
   },
   {
     "id": "579e8111-d9f7-4fb0-91e0-d20cc85f7969",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 10 songs on Bob Dylan's Blood on the Tracks album",
     "answers": [
@@ -135,7 +135,7 @@
   },
   {
     "id": "592365ab-b1b9-46e9-bb5b-4827cf21d2a5",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 9 different songs sung by the Beatles during their first 3 appearances on the Ed Sullivan show in 1964.",
     "answers": [
@@ -154,7 +154,7 @@
   },
   {
     "id": "af005fed-7233-4871-9441-761c74382b9b",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 distinct poker hands according to Hoyle",
     "answers": [
@@ -174,7 +174,7 @@
   },
   {
     "id": "fa44c144-5273-442e-b9b2-d2f17e858c5b",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 Canadian provinces and 3 Canadian territories",
     "answers": [
@@ -197,7 +197,7 @@
   },
   {
     "id": "643f66a5-7fb9-4ffe-ba55-cc883e37336c",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 Canadian provincial capitals and 3 Canadian territorial capitals",
     "answers": [
@@ -220,7 +220,7 @@
   },
   {
     "id": "f54e9461-eca2-4b78-aeba-7a8eaaaf480e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 11 letters of the alphabet not in SUPERCALIFRAGILISTICEXPIALIDOCIOUS",
     "answers": [
@@ -241,7 +241,7 @@
   },
   {
     "id": "0ec881ba-7485-4575-be8d-1219d37a9c69",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 13 countries that hosted one or more Summer Olympics from 1960 to 2012.",
     "answers": [
@@ -264,7 +264,7 @@
   },
   {
     "id": "99adc84d-480c-4028-a968-e2ac71977871",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 American most thrilling movies of all time as of 2001.",
     "answers": [
@@ -289,7 +289,7 @@
   },
   {
     "id": "7ec2c8ed-0b28-4579-8ec5-4c0b1451cef0",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 American movie heroes of all time as of 2003.",
     "answers": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "319b9b12-1f7b-40a0-9f98-b267e31b7171",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 American movie songs of all time as of 2000.",
     "answers": [
@@ -339,7 +339,7 @@
   },
   {
     "id": "f3c5e67f-5c57-4eb5-978b-324b316ecec4",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 American movie villains of all time as of 2003.",
     "answers": [
@@ -364,7 +364,7 @@
   },
   {
     "id": "7bddd892-6fe2-4ec0-9f9a-8ff28a32d114",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 American movies of all time as of 1998.",
     "answers": [
@@ -389,7 +389,7 @@
   },
   {
     "id": "c3d3ced6-e748-4da4-aad0-f4dccbe7e020",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 female movie stars of all time as of 1999. (Note: the criteria was someone whose career began before 1950 or someone who was already dead)",
     "answers": [
@@ -414,7 +414,7 @@
   },
   {
     "id": "2b5fbdb0-2dca-4380-8523-bcc7ccac5bdd",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 funniest American movies of all time as of 1999.",
     "answers": [
@@ -439,7 +439,7 @@
   },
   {
     "id": "ae190333-5904-4c9a-94e1-c715208ce1a6",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List AFI's top 15 male movie stars of all time as of 1999. (Note: the criteria was someone whose career began before 1950 or someone who was already dead).",
     "answers": [
@@ -464,7 +464,7 @@
   },
   {
     "id": "021d9f22-f8ce-448c-9fc1-1904f6ed793f",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 11 places mentioned by name in the Beach Boys song 'Kokomo'",
     "answers": [
@@ -485,7 +485,7 @@
   },
   {
     "id": "b1261066-d372-4443-b538-9f0219fe6a1f",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 17 #1 songs of the year from 1964 to 1980 according to the two largest pop music charts in North America.",
     "answers": [
@@ -512,7 +512,7 @@
   },
   {
     "id": "1829f162-ed1e-49cb-b5d6-bd126f9e85fc",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 Commandments according to the Roman Catholic church",
     "answers": [
@@ -532,7 +532,7 @@
   },
   {
     "id": "28d92fa1-ef81-4a26-8310-d1c2505a4cde",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 largest countries in square miles (as of 2004)",
     "answers": [
@@ -552,7 +552,7 @@
   },
   {
     "id": "83c44925-ba1f-4984-be5a-63b92e577935",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 largest lakes at least partially within Canadian borders",
     "answers": [
@@ -572,7 +572,7 @@
   },
   {
     "id": "278c2fe5-ca01-44a6-88af-6c0ecdbe7fc6",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 longest rivers in the world.",
     "answers": [
@@ -592,7 +592,7 @@
   },
   {
     "id": "56192173-815a-48a7-af47-705f6e28857e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 most common boy names for babies born in the USA in the decade of the 1890s",
     "answers": [
@@ -612,7 +612,7 @@
   },
   {
     "id": "981e1fcc-aa14-40fd-b572-453d090f2c06",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 most common girl names for babies born in the USA in the decade of the 1890s",
     "answers": [
@@ -632,7 +632,7 @@
   },
   {
     "id": "3fd79d90-ec10-4025-891b-da3468c9dbcf",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 10 visitors to Willie Wonka's chocolate factory in the 2005 movie Charlie and the Chocolate Factory",
     "answers": [
@@ -652,7 +652,7 @@
   },
   {
     "id": "9f371051-e99f-44e5-82d8-7916f1ec7a82",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 11 Jeeves novels by P G Wodehouse",
     "answers": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "c874c72e-3417-45d8-ac35-208be0253d37",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 11 Shakespearean plays considered to be comedies by the Pelican Shakespeare Library",
     "answers": [
@@ -695,7 +695,7 @@
   },
   {
     "id": "620224ad-d702-45b1-9680-43bdbf1bb4a1",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 12 Shakespearean plays considered to be tragedies by the Pelican Shakespeare Library",
     "answers": [
@@ -717,7 +717,7 @@
   },
   {
     "id": "e29e2718-8a57-471d-9c53-37e52a8dd201",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 11 squares along the first row on the Monopoly board in the original Atlantic City version",
     "answers": [
@@ -764,7 +764,7 @@
   },
   {
     "id": "e089d68a-1577-4448-99ab-f8e44a5c63aa",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 12 highest grossing movies worldwide, as of the end of 2005, with one word titles (excluding 'The')",
     "answers": [
@@ -786,7 +786,7 @@
   },
   {
     "id": "dc65a5e6-1098-46a7-add9-d6a73e819b11",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 longest running Broadway productions as of the end of 2005",
     "answers": [
@@ -808,9 +808,9 @@
   },
   {
     "id": "9323d6ff-4d19-4897-982e-21b83a9771ae",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
-    "question": "List the spelling of the 12 months on a standard French calendar (excluding accents)",
+    "question": "List (by spelling out) the 12 months on a standard French calendar (excluding accents)",
     "answers": [
       "janvier",
       "fevrier",
@@ -830,7 +830,7 @@
   },
   {
     "id": "b9763d66-f9c3-4090-8e4e-a5fc205e738e",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 most common mother tongues in Canada according to the 1996 census.",
     "answers": [
@@ -852,7 +852,7 @@
   },
   {
     "id": "ccbebdc2-d43d-476d-968a-72b65806dea7",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 most common spoken native languages in the world as of 2004",
     "answers": [
@@ -874,7 +874,7 @@
   },
   {
     "id": "1b10d15e-2c9c-4bd6-a4cb-8cebf49849f7",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 most populous countries in 2005",
     "answers": [
@@ -896,7 +896,7 @@
   },
   {
     "id": "4af09526-d25b-4e52-b19d-a1e3e821b6a8",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 signs of the zodiac.",
     "answers": [
@@ -918,7 +918,7 @@
   },
   {
     "id": "536327dc-383d-4634-b21c-1932d6367054",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 15 largest cities in Canada by population as of 2001.",
     "answers": [
@@ -943,7 +943,7 @@
   },
   {
     "id": "33e3f4b5-8d44-4447-9403-67a91f4160fb",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 15 largest cities in the USA by population as of 2004",
     "answers": [
@@ -968,7 +968,7 @@
   },
   {
     "id": "ac8d342a-5b79-4105-a5d6-79cc7a26ae6e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 most common boy names for babies born in the USA in 2008",
     "answers": [
@@ -993,7 +993,7 @@
   },
   {
     "id": "395e0485-4a10-422f-86e0-8b6f4676a722",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 most common girl names for babies born in the USA in 2008",
     "answers": [
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "849b25a2-f4c9-4643-8149-901707bdd361",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 most common surnames in the US according to the 1990 census.",
     "answers": [
@@ -1043,7 +1043,7 @@
   },
   {
     "id": "04615acf-4051-46bd-9b16-a66be4fec0ea",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 15 most taxed countries in the world according to the OECD",
     "answers": [
@@ -1068,7 +1068,7 @@
   },
   {
     "id": "f5331983-13e0-4d7f-a591-29ad3e0b83c1",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 15 worldwide highest grossing movies as of 2005 according to iMDB.com",
     "answers": [
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "b99708f4-f3f8-4ec5-8546-4404cd5f63e5",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 20 largest cities in the world as of 2004.",
     "answers": [
@@ -1123,7 +1123,7 @@
   },
   {
     "id": "8fcc8b0a-0273-488e-8a66-f11b660d4872",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 20 worst movies of all time according to the Hastings Bad Cinema Society",
     "answers": [
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "9c9462ac-86d7-4f97-9b58-e5bdb4c9181c",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 4 lobes of the human brain and the 4 chambers of the human heart",
     "answers": [
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "5395a02f-a488-4d67-83f3-f7a228ecd7d6",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 7 continents and 5 oceans",
     "answers": [
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "9c08a233-cd19-4d6b-841c-d8a843a03489",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 7 member countries of the United Nation that end in 'stan'",
     "answers": [
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "30db4347-1851-44aa-8951-a99981e33312",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 9 countries that constitute Western Europe as defined by the United Nations",
     "answers": [
@@ -1229,7 +1229,7 @@
   },
   {
     "id": "d626c69f-4fff-4f18-a2dc-09cf0b9246d8",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List either the 5 actors named in the opening credits of The Dick Van Dyke Show (Season 5) or the 5 characters they portray",
     "answers": [
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "a5c663be-2911-409a-a3eb-415be330261c",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 8 actors named in the title song from The Rocky Horror Picture Show",
     "answers": [
@@ -1267,7 +1267,7 @@
   },
   {
     "id": "aa93a051-0a6b-4c98-b864-202d4ee03871",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 8 American Ivy League Schools.",
     "answers": [
@@ -1311,7 +1311,7 @@
   },
   {
     "id": "e7c04eae-3d2f-4dfa-a2f0-5a8cf43a3290",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 American states with a K, X or Z in their name",
     "answers": [
@@ -1333,7 +1333,7 @@
   },
   {
     "id": "76aee0b4-7f8e-4cdb-93de-6c3a631ff9f1",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 animals associated with the Chinese zodiac",
     "answers": [
@@ -1355,7 +1355,7 @@
   },
   {
     "id": "9c342dd0-22af-4134-b8ea-7774affa63b1",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 10 smartphone manufacturers in 2012",
     "answers": [
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "bc3014ff-4e3f-485a-ad8b-9aeadcec34b3",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 monthly birth stones according to the National Association of Jewelers.",
     "answers": [
@@ -1397,7 +1397,7 @@
   },
   {
     "id": "31bcb7ff-8a53-4b4b-bd45-03edaa8207ae",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 13 books of the Old Testament not named directly for a person",
     "answers": [
@@ -1420,7 +1420,7 @@
   },
   {
     "id": "139a4ac1-e9e2-4cc7-a7c1-cbf5c10feef9",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 12 cartoon characters who sing/dance/march in the opening credits of The Bugs Bunny/Roadrunner Show.",
     "answers": [
@@ -1442,7 +1442,7 @@
   },
   {
     "id": "169716e4-dc10-49ec-9790-8ea890141d18",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 7 castaways on Gilligan's Island or the 7 actors who played the roles.",
     "answers": [
@@ -1466,7 +1466,7 @@
   },
   {
     "id": "e34f360a-33cd-46ac-844a-363b44929a36",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 17 characters (real and fictional) named in Bob Dylan's 'Desolation Row' from the Highway 61 Revisited album",
     "answers": [
@@ -1493,7 +1493,7 @@
   },
   {
     "id": "67a0529e-517f-4ae2-af85-f6acd2fe5ca1",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 7 characters or the 6 murder weapons in the original game Clue",
     "answers": [
@@ -1516,7 +1516,7 @@
   },
   {
     "id": "86403fad-9b4c-411f-88af-3ea54ffb6227",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 9 Kansas-based characters in The Wizard of Oz (1939)",
     "answers": [
@@ -1535,7 +1535,7 @@
   },
   {
     "id": "03dba6a1-8475-4d1c-8d44-552ad034b70b",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 11 characters voiced by Daws Butler in Yogi Bear's All-Star Comedy Christmas Caper (1982)",
     "answers": [
@@ -1556,7 +1556,7 @@
   },
   {
     "id": "eb70b830-d7be-4a2a-87ec-76e26e513a3d",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 12 characters voiced by Mel Blanc in The Bugs Bunny Show (1960-1968)",
     "answers": [
@@ -1578,7 +1578,7 @@
   },
   {
     "id": "54f64fe2-975c-4362-af3c-644ba79b5f9e",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 8 cities mentioned or alluded to in Dancing in the Streets (Martha and the Vandellas version)",
     "answers": [
@@ -1596,7 +1596,7 @@
   },
   {
     "id": "c4383f7c-4d08-4003-b81f-9da26317c51e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the code words for the first 13 letters of the alphabet (A-M) according to the International Civil Aviation Organization",
     "answers": [
@@ -1619,7 +1619,7 @@
   },
   {
     "id": "decd7f35-6a61-47d9-bcde-da7db9d46181",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the code words for the last 13 letters of the alphabet (N-Z) according to the International Civil Aviation Organization",
     "answers": [
@@ -1642,7 +1642,7 @@
   },
   {
     "id": "2249635b-32bd-4552-bf8a-4affa07398c7",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 8 colours in the first box of Crayola crayons (1903)",
     "answers": [
@@ -1660,7 +1660,7 @@
   },
   {
     "id": "024e68a4-f3e8-405a-80eb-19c67c36bb98",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 common body parts that are three letters long (no slang terms allowed eg 'ass', 'bum')",
     "answers": [
@@ -1680,7 +1680,7 @@
   },
   {
     "id": "6fdbfc71-18ed-4522-9214-12a30550806c",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 7 components of a standard Big Mac according to the ad jingle",
     "answers": [
@@ -1697,7 +1697,7 @@
   },
   {
     "id": "327cfd36-61d2-461e-b67c-bd4cd6b3a71b",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 11 Confederate states in the US Civil War",
     "answers": [
@@ -1718,7 +1718,7 @@
   },
   {
     "id": "67da2237-b796-4769-bbc8-b4f22d2df571",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 11 country members of OPEC in 2004",
     "answers": [
@@ -1739,7 +1739,7 @@
   },
   {
     "id": "e79603f5-c9eb-4b3f-8b31-40baa33c5fa2",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 12 Elvis Presley songs that hit #1 in the 1950s",
     "answers": [
@@ -1761,7 +1761,7 @@
   },
   {
     "id": "e84f6b7b-b13a-4d75-8e0a-b1e7480a04cb",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 14 'favorite things' from the song My Favorite Things as sung in the movie version of The Sound of Music",
     "answers": [
@@ -1785,7 +1785,7 @@
   },
   {
     "id": "85907bab-f745-4d76-bc5b-fe58f2e1ea77",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the first 12 letters of the Greek alphabet",
     "answers": [
@@ -1807,7 +1807,7 @@
   },
   {
     "id": "fab80eec-5961-4e44-9f97-2ec4ae8592bc",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the first 14 recipients of the Grammy Lifetime Achievement Award",
     "answers": [
@@ -1831,7 +1831,7 @@
   },
   {
     "id": "627f52e1-b474-4e41-9569-229160402634",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the first 15 elements of the periodic table.",
     "answers": [
@@ -1855,38 +1855,8 @@
     "tags": []
   },
   {
-    "id": "adbf855f-3da7-4db4-9ff3-3fea862516e4",
-    "category": "Uncategorized",
-    "difficulty": "Medium",
-    "question": "List the first 20 official Bond films.",
-    "answers": [
-      "A View To A Kill",
-      "Diamonds Are Forever",
-      "Die Another Day",
-      "Dr No",
-      "For Your Eyes Only",
-      "From Russia With Love",
-      "GoldenEye",
-      "Goldfinger",
-      "Licence to Kill",
-      "Live and Let Die",
-      "Moonraker",
-      "Octopussy",
-      "On Her Majesty's Secret Service",
-      "The Living Daylights",
-      "The Man with the Golden Gun",
-      "The Spy Who Loved Me",
-      "The World is Not Enough",
-      "Thunderball",
-      "Tomorrow Never Dies",
-      "You Only Live Twice"
-    ],
-    "source": "Original Yola Game",
-    "tags": []
-  },
-  {
     "id": "678b5997-9185-4d15-a6ef-e360085ee67a",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the full names of the 6 main characters in Friends and the 4 main characters in Seinfeld",
     "answers": [
@@ -1906,7 +1876,7 @@
   },
   {
     "id": "d607df19-c63e-4cf0-aaf5-868264e68096",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 12 gifts by name and number given in the 12 Days of Christmas.",
     "answers": [
@@ -1928,7 +1898,7 @@
   },
   {
     "id": "f3c8115a-6a9b-47ba-8411-99fffc80897f",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 independent countries of South America as at 2005",
     "answers": [
@@ -1950,7 +1920,7 @@
   },
   {
     "id": "fc6e6365-8688-47a4-91c8-5be9f82efb1d",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the last 12 Canadian prime ministers as of 2012",
     "answers": [
@@ -1972,7 +1942,7 @@
   },
   {
     "id": "5f6af1de-ebe2-42f8-854c-fdf4042bfef6",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the last 12 letters of the Greek alphabet",
     "answers": [
@@ -1994,7 +1964,7 @@
   },
   {
     "id": "7590b55a-669a-45eb-b39e-648b1975df0e",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the last 15 films directed by Alfred Hitchcock.",
     "answers": [
@@ -2019,7 +1989,7 @@
   },
   {
     "id": "444ad4d4-a8bc-423c-845a-118c764784f8",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 16 letters in Scrabble that are worth more than 1 point.",
     "answers": [
@@ -2045,7 +2015,7 @@
   },
   {
     "id": "eb863094-3634-4026-a680-6215d01c3139",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 13 letters that do not appear in the name Arnold Schwarzenegger",
     "answers": [
@@ -2068,7 +2038,7 @@
   },
   {
     "id": "b136652c-470c-45a6-b613-2920a82ffe8e",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 15 Marx Brothers movies",
     "answers": [
@@ -2093,7 +2063,7 @@
   },
   {
     "id": "39d763aa-1748-448f-83ae-9654ae2491a0",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 8 movie/TV Bonds as of 2012. (Not necessarily canonical movies)",
     "answers": [
@@ -2111,7 +2081,7 @@
   },
   {
     "id": "0bb1ec17-4dc3-4867-9a4b-6ca1daf40d3c",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 18 musical acts credited on the cover of the No Nukes album",
     "answers": [
@@ -2139,7 +2109,7 @@
   },
   {
     "id": "62de4eea-658d-4ce2-a89e-d14ba00de079",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 18 musical acts that appear on the original Woodstock album",
     "answers": [
@@ -2167,7 +2137,7 @@
   },
   {
     "id": "c63ef78d-4f59-4aae-b2ae-55ea60ff6d0b",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 19 novels of John Steinbeck",
     "answers": [
@@ -2196,7 +2166,7 @@
   },
   {
     "id": "3a70d111-9f7a-45cb-93d0-167d4fe6980f",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 11 novels written by Ernest Hemingway",
     "answers": [
@@ -2217,7 +2187,7 @@
   },
   {
     "id": "e4da90c2-4979-4e67-a0c9-bce0d1754e52",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 14 novels written by Kurt Vonnegut Jr",
     "answers": [
@@ -2241,7 +2211,7 @@
   },
   {
     "id": "495740ca-5698-47be-9bcf-63d768ba896a",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 14 official British noble titles",
     "answers": [
@@ -2265,9 +2235,9 @@
   },
   {
     "id": "e435a438-d405-48c2-a8ab-080ea633ef17",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
-    "question": "List the 7 original Justice League members or their 7 secret identities as seen on the TV cartoon in 2002",
+    "question": "List the 7 original Justice League members or their 7 secret identities as seen on the TV cartoon 'Justice League'",
     "answers": [
       "Batman",
       "Bruce Wayne",
@@ -2289,7 +2259,7 @@
   },
   {
     "id": "ceee33e2-74b4-47aa-a1c5-2cad9716267a",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 4 railways, 2 taxes, 2 utilities and 4 corner blocks on the Monopoly board in the original Atlantic City version",
     "answers": [
@@ -2311,7 +2281,7 @@
   },
   {
     "id": "f8f0a137-8dc6-43ac-81e8-519c16e35cd2",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 10 songs on Bob Dylan's first Greatest Hits LP (released 1967)",
     "answers": [
@@ -2331,7 +2301,7 @@
   },
   {
     "id": "1d705eb6-1ab1-4cd2-8f13-192063e3f3ed",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 12 songs on Bruce Springsteen's Born In The USA album",
     "answers": [
@@ -2353,7 +2323,7 @@
   },
   {
     "id": "4b5b7d65-a5dd-408c-b6fd-bc57f1fda335",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 18 songs on Bruce Springsteen's Greatest Hits CD",
     "answers": [
@@ -2381,7 +2351,7 @@
   },
   {
     "id": "dac2903d-44c3-4cd6-bf18-c31e88feb364",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 20 songs on Bruce Springsteen's The River album",
     "answers": [
@@ -2411,7 +2381,7 @@
   },
   {
     "id": "bdc8233d-a32a-4f29-a335-05969e3aa86f",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 7 songs on Meatloaf's Bat Out of Hell album",
     "answers": [
@@ -2428,7 +2398,7 @@
   },
   {
     "id": "da4c4ee6-33cd-4ead-9e6b-3bfa7cbb7f49",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 15 songs on Nat King Cole's Ramblin' Rose CD (has 3 extra songs not on LP)",
     "answers": [
@@ -2453,7 +2423,7 @@
   },
   {
     "id": "b8e59c7e-6a73-4602-8076-0d93457d1a42",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 20 songs on Creedence Clearwater Revival's greatest hits CD named Chronicle",
     "answers": [
@@ -2483,9 +2453,9 @@
   },
   {
     "id": "964ea645-ee69-471a-9926-6fd3f80363e5",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
-    "question": "List the 20 performers (other than James Ingram) who sing lead/solo on at least one line of the original We Are the World.",
+    "question": "List the 21 performers who sing lead/solo on at least one line of the original We Are the World.",
     "answers": [
       "Al Jarreau",
       "Billy Joel",
@@ -2495,6 +2465,7 @@
       "Daryl Hall",
       "Diana Ross",
       "Dionne Warwick",
+	  "James Ingram",
       "Huey Lewis",
       "Kenny Loggins",
       "Kenny Rogers",
@@ -2513,7 +2484,7 @@
   },
   {
     "id": "156ba78c-ec13-4f87-9329-a772a3b1e259",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the product associated with the first 15 wedding anniversaries.",
     "answers": [
@@ -2538,7 +2509,7 @@
   },
   {
     "id": "c13238c7-822c-4369-ac69-39f73e9c13c8",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 9 rooms in Clue",
     "answers": [
@@ -2557,7 +2528,7 @@
   },
   {
     "id": "e4c64abd-5c54-433b-81da-da62dcc74971",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 5 Simpsons family members or the 6 Family Guy family members",
     "answers": [
@@ -2578,7 +2549,7 @@
   },
   {
     "id": "17d361d0-b767-4403-a3d2-05d9c1674d41",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 17 songs on The Beatles' Abbey Road album",
     "answers": [
@@ -2605,7 +2576,7 @@
   },
   {
     "id": "9b33984c-e203-4db8-bbc7-eec7499118ee",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 12 songs on The Beatles Let It Be album",
     "answers": [
@@ -2627,7 +2598,7 @@
   },
   {
     "id": "6d978853-1c31-4767-9e43-f9bc28def46e",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 11 songs on The Beatles Magical Mystery Tour album",
     "answers": [
@@ -2648,7 +2619,7 @@
   },
   {
     "id": "3c2e2368-cec5-42ef-92d3-8ef9ed5239c8",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 13 songs on The Beatles' Sgt. Pepper album",
     "answers": [
@@ -2671,7 +2642,7 @@
   },
   {
     "id": "4f741631-5cfa-42b5-a7cc-56bf881d2a46",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 most visited websites on the Internet",
     "answers": [
@@ -2691,7 +2662,7 @@
   },
   {
     "id": "77c0000a-b062-4910-8a2b-d01168171e29",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 13 songs on the CD release Johnny Horton's Greatest Hits",
     "answers": [
@@ -2714,7 +2685,7 @@
   },
   {
     "id": "895273e8-6429-45c4-a719-7637a83f0482",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 15 songs on the first A Very Special Christmas album",
     "answers": [
@@ -2739,9 +2710,9 @@
   },
   {
     "id": "f9a51272-07a5-4158-bb9b-392d54853a41",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
-    "question": "List the 16 teams in the American Conference of the NFL in 2012",
+    "question": "List the 16 teams in the American Conference of the NFL in 2025",
     "answers": [
       "Baltimore Ravens",
       "Buffalo Bills",
@@ -2752,12 +2723,12 @@
       "Indianapolis Colts",
       "Jacksonville Jaguars",
       "Kansas City Chiefs",
+      "Las Vegas Raiders",
+      "Los Angeles Chargers",
       "Miami Dolphins",
       "New England Patriots",
       "New York Jets",
-      "Oakland Raiders",
       "Pittsburgh Steelers",
-      "San Diego Chargers",
       "Tennessee Titans"
     ],
     "source": "Original Yola Game",
@@ -2765,33 +2736,33 @@
   },
   {
     "id": "a43824cb-17f0-4d76-8bce-aecd31a85da9",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
-    "question": "List the 16 teams in the National Conference of the NFL in 2012",
+    "question": "List the 16 teams in the National Conference of the NFL in 2025",
     "answers": [
+      "Arizona Cardinals",
       "Atlanta Falcons",
       "Carolina Panthers",
       "Chicago Bears",
       "Dallas Cowboys",
       "Detroit Lions",
       "Green Bay Packers",
+      "Los Angeles Rams",
       "Minnesota Vikings",
       "New Orleans Saints",
       "New York Giants",
       "Philadelphia Eagles",
-      "Phoenix Cardinals",
       "San Francisco 49ers",
       "Seattle Seahawks",
-      "St Louis Rams",
       "Tampa Bay Buccaneers",
-      "Washington Redskins"
+      "Washington Commanders"
     ],
     "source": "Original Yola Game",
     "tags": []
   },
   {
     "id": "1fadedc0-bb40-48bc-96dc-bf721530ff25",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 13 countries to have ever played in the finals of a World Cup of Soccer tournament as of 2010",
     "answers": [
@@ -2814,7 +2785,7 @@
   },
   {
     "id": "0ffc73a3-b8db-4ee2-bb61-32d7be4e5ed2",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 4 Teenage Mutant Ninja Turtles or the 6 Power Rangers as they appeared in their first movies",
     "answers": [
@@ -2834,7 +2805,7 @@
   },
   {
     "id": "e2d8ddd3-5f02-4a51-a7ba-bfd39e30b1a4",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 coffee producing countries in the world in 1998",
     "answers": [
@@ -2854,7 +2825,7 @@
   },
   {
     "id": "ae106372-44cc-410b-9a3a-7ed281c2b663",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries as of 2004 for oil reserves",
     "answers": [
@@ -2874,7 +2845,7 @@
   },
   {
     "id": "61654f52-5706-4e3f-a50e-f58cc3bfa104",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the top 10 highest grossing sports movies as of the start of 2006",
     "answers": [
@@ -2894,7 +2865,7 @@
   },
   {
     "id": "7c5b9766-981a-46c1-a662-cbc2d2d470b3",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 12 countries in 2002 for carbon dioxide emission",
     "answers": [
@@ -2916,7 +2887,7 @@
   },
   {
     "id": "5c223593-d787-4af6-9968-8357348adb47",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 12 names for boys in the USA in 1952 according to USA Social Security Administration",
     "answers": [
@@ -2938,7 +2909,7 @@
   },
   {
     "id": "c021fa5c-1a8c-42ab-8182-92e1de41cc36",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 12 names for girls in the USA in 1952 according to USA Social Security Administration",
     "answers": [
@@ -2960,7 +2931,7 @@
   },
   {
     "id": "1d0d3289-0af2-4c06-bd24-d4e2620274f5",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 13 grossing dead celebrities of 2006 according to Forbes Magazine",
     "answers": [
@@ -2983,7 +2954,7 @@
   },
   {
     "id": "f46e1769-8324-48d5-9ba6-d947b07c34e6",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 14 tea producing countries in the world",
     "answers": [
@@ -3007,7 +2978,7 @@
   },
   {
     "id": "b89cb014-edff-4566-9623-f1f274ba3b57",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the top 15 cartoon characters according to TV Guide in 2002. (Some answers are grouped)",
     "answers": [
@@ -3032,7 +3003,7 @@
   },
   {
     "id": "8b8cd066-6208-475e-93b5-4806fd63a1e7",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 15 countries for murders per capita in the years from 1998 to 2000",
     "answers": [
@@ -3057,7 +3028,7 @@
   },
   {
     "id": "9cb47cd0-0217-4984-8aae-7861b38b386d",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 16 Songs of the 20th Century as determined by the Recording Industry Association of America",
     "answers": [
@@ -3083,7 +3054,7 @@
   },
   {
     "id": "d570cc38-b599-4f76-aa64-754dad0e5d45",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 albums on Rolling Stones top 500 albums of all time (as of 2004)",
     "answers": [
@@ -3113,7 +3084,7 @@
   },
   {
     "id": "7a1c0140-9998-45bb-b8b0-73b2e1c72c80",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the top 20 biographies of the millenium according to A&E",
     "answers": [
@@ -3143,7 +3114,7 @@
   },
   {
     "id": "c8f6550a-ca7f-4a3d-93bc-018320b13891",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 most played songs (on American radio and television) during the 20th century",
     "answers": [
@@ -3173,7 +3144,7 @@
   },
   {
     "id": "2c1b3480-ec45-4e0a-8194-c11abec77fa5",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 songs on Rolling Stones top 500 songs of all time (as of 2004)",
     "answers": [
@@ -3203,7 +3174,7 @@
   },
   {
     "id": "b70320f3-755d-45c1-b7c0-529f2eb2cce8",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 14 toppings available for a Little Caesar's pizza",
     "answers": [
@@ -3227,7 +3198,7 @@
   },
   {
     "id": "89d59be8-95ee-49c5-80da-ac8431c295df",
-    "category": "Uncategorized",
+    "category": "Hitory",
     "difficulty": "Medium",
     "question": "List the 12 Tudor and Stuart monarchs of England",
     "answers": [
@@ -3249,7 +3220,7 @@
   },
   {
     "id": "6e78cca1-de07-4a68-a449-0a7ec5799f2f",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 12 US presidents, as of 2012, with surnames 5 letters long or shorter",
     "answers": [
@@ -3271,7 +3242,7 @@
   },
   {
     "id": "f937f386-cb32-4728-8add-8fddbbd73ac3",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 14 US presidents, as of 2012, with surnames 8 letters long or longer",
     "answers": [
@@ -3295,7 +3266,7 @@
   },
   {
     "id": "6f199bb5-e54f-467b-b5b0-272c666b92f4",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 US states that start with a vowel",
     "answers": [
@@ -3317,7 +3288,7 @@
   },
   {
     "id": "bcbb627a-0a8a-4edd-8b9a-4d91fd9aade5",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 16 Walt Disney Feature Animation movies released between 1990 and 2005",
     "answers": [
@@ -3343,7 +3314,7 @@
   },
   {
     "id": "32d0211b-d100-44de-a2ed-aeb300d3863e",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 11 Star Trek movies as of 2012",
     "answers": [
@@ -3364,7 +3335,7 @@
   },
   {
     "id": "c9040095-8c47-46ab-8d07-91af96281451",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 6 Star Wars movies or the 4 Indiana Jones movies",
     "answers": [
@@ -3384,7 +3355,7 @@
   },
   {
     "id": "74bf55b4-b0d3-4371-9b22-1f0fb8f5b674",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 8 people who are heard praying for George Bailey at the start of It's a Wonderful Life",
     "answers": [
@@ -3402,7 +3373,7 @@
   },
   {
     "id": "7f642a32-9ffa-4cb0-85ef-395a9b594789",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the top 20 movies according to user ratings on iMDB.com as of December 2012",
     "answers": [
@@ -3432,7 +3403,7 @@
   },
   {
     "id": "64eb3cdb-5cfd-4fb5-b903-b90977644cd8",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the top 10 animated movies according to user ratings on iMDB.com as of December 2012 (minimum 1000 votes)",
     "answers": [
@@ -3452,7 +3423,7 @@
   },
   {
     "id": "415c431c-6ba0-4496-9f3f-782c90669762",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the top 20 horror movies according to user ratings on iMDB.com as of December 2012 (minimum 1000 votes)",
     "answers": [
@@ -3482,7 +3453,7 @@
   },
   {
     "id": "7ddcf1bf-64aa-4956-ab54-a577021401de",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 Beatles songs according to Rolling Stone as of December 2012",
     "answers": [
@@ -3512,7 +3483,7 @@
   },
   {
     "id": "37332ee7-4032-4755-b1c5-a6b25bd7c64a",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 singers according to Rolling Stone as of December 2012",
     "answers": [
@@ -3542,7 +3513,7 @@
   },
   {
     "id": "ed0cb245-3a67-42e0-aef1-0df26e0d8954",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 guitarists according to Rolling Stone as of December 2012",
     "answers": [
@@ -3572,7 +3543,7 @@
   },
   {
     "id": "89f2f602-c79a-4b37-82ac-084bc60ba318",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 15 countries with the best education systems as of September 2012",
     "answers": [
@@ -3597,7 +3568,7 @@
   },
   {
     "id": "d3640c8b-622c-4c5d-8078-55ac4d5a9587",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 cleanest countries in terms of Environmental Sustainability as of 2005",
     "answers": [
@@ -3617,7 +3588,7 @@
   },
   {
     "id": "28952d93-ca19-489a-b71f-b6c925b94d35",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 richest countries in 2012 in terms of Gross Domestic Product",
     "answers": [
@@ -3637,7 +3608,7 @@
   },
   {
     "id": "d4464103-f21b-487e-b896-b2219039d2c3",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 most spoken languages in Canada",
     "answers": [
@@ -3657,7 +3628,7 @@
   },
   {
     "id": "e353c4bb-e3c6-4ec6-94a1-d1d62bd0c3d3",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 most generous countries in terms of donor aid per capita",
     "answers": [
@@ -3677,7 +3648,7 @@
   },
   {
     "id": "2cbbe599-ecc7-4d33-81db-07ce5c8b7d67",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 independent nations in mainland South America",
     "answers": [
@@ -3699,7 +3670,7 @@
   },
   {
     "id": "73ea7bff-d3ae-4fb3-b9cd-e66237975602",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 10 countries with the most billionaires as of 2012",
     "answers": [
@@ -3719,7 +3690,7 @@
   },
   {
     "id": "3aa16761-fbb0-4eb8-b070-a735c2f8b2dc",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 15 countries with the highest quality of life in 2012",
     "answers": [
@@ -3744,7 +3715,7 @@
   },
   {
     "id": "d6304951-0001-44ed-96fe-cf28ab79f1af",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 7 countries of Central America",
     "answers": [
@@ -3761,7 +3732,7 @@
   },
   {
     "id": "db7c5f8f-9d63-4e84-837d-96b11623cdb4",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 12 NHL teams that have won the Stanley Cup more than once as of 2012",
     "answers": [
@@ -3783,7 +3754,7 @@
   },
   {
     "id": "e7d2c805-4e15-4cb9-8ab0-d7e7eb2aedb6",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 11 NFL teams that have won the Super Bowl more than once as of 2012",
     "answers": [
@@ -3804,7 +3775,7 @@
   },
   {
     "id": "f99520f0-9558-4c75-b21a-370f53575a7e",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 19 Major League Baseball teams that have won the World Series more than once as of 2012",
     "answers": [
@@ -3833,7 +3804,7 @@
   },
   {
     "id": "c3ab62af-5194-435c-9f23-d2844b67c97e",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 20 Canadian singles of all time as ranked in The Top 100 Canadian Singles",
     "answers": [
@@ -3863,7 +3834,7 @@
   },
   {
     "id": "599fc7c5-267e-47c2-b73a-46feb5358daf",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 20 most played songs on the radio as of 2012",
     "answers": [
@@ -3893,7 +3864,7 @@
   },
   {
     "id": "39446103-b7e9-4cba-85fc-102dcae38b3e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 8 planets and 5 dwarf planets in the Solar System according to the International Astronomical Union (IAU) as of 2012",
     "answers": [
@@ -3916,7 +3887,7 @@
   },
   {
     "id": "b459838b-6bc0-4c8d-a94b-ea0bb46fe900",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 7 products included in MS-Office 2010 Professional",
     "answers": [
@@ -3933,7 +3904,7 @@
   },
   {
     "id": "f5bbdefe-1f62-4ed5-924e-5859bb692f72",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 8 reindeer named in Clement Moore's poem A Visit From St Nicholas",
     "answers": [
@@ -3951,7 +3922,7 @@
   },
   {
     "id": "57af2b8a-c5f4-4c5a-8787-5d4439df6e73",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 15 actors/actresses that appear on the Sgt. Pepper's Lonely Hearts Club Band album cover (excluding the Beatles)",
     "answers": [
@@ -3976,7 +3947,7 @@
   },
   {
     "id": "40d9664a-17c5-4b86-b439-909dc0ac2bd4",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 10 car companies in 2012",
     "answers": [
@@ -3996,7 +3967,7 @@
   },
   {
     "id": "c3304fce-3605-4c0c-a9dd-6e5547f62d83",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 10 largest restaurant chains in America by number of stores",
     "answers": [
@@ -4016,7 +3987,7 @@
   },
   {
     "id": "abc3c736-c32d-4641-908f-5aa49c47a401",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 biggest retailers in America in terms of retail sales as of 2010",
     "answers": [
@@ -4041,7 +4012,7 @@
   },
   {
     "id": "e103a86b-c99b-4d7d-9d5f-afa7f5cb96d9",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 18 character names with the initials L.L. cited in the Superman Issue 204 issue article titled The Legendary Lore of the L.L.'s",
     "answers": [
@@ -4069,7 +4040,7 @@
   },
   {
     "id": "611c808b-2f72-4618-b61d-40ce023d7c48",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the top 10 performers for combined album sales and concert revenue for the decade years 2000 - 2009",
     "answers": [
@@ -4110,7 +4081,7 @@
   },
   {
     "id": "df9ea7af-9966-4736-89f9-bddb91c7b7d6",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries with the largest standing armies in 2012",
     "answers": [
@@ -4130,7 +4101,7 @@
   },
   {
     "id": "631b48d4-cfbd-442d-be64-0222b7a96718",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries with the longest coastlines in 2012",
     "answers": [
@@ -4150,7 +4121,7 @@
   },
   {
     "id": "24019b2d-400d-4c82-b6e2-07a9664a3039",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries with the highest National Power Index ratings as of 2012",
     "answers": [
@@ -4170,7 +4141,7 @@
   },
   {
     "id": "96dec609-c2e6-4c6f-92cb-9a921bcda54d",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 20 characters who testify against Jerry, Elaine, Kramer and George in the final episode of Seinfeld",
     "answers": [
@@ -4200,7 +4171,7 @@
   },
   {
     "id": "6b9a7093-724c-49d5-a1e2-d796e43fb5af",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 19 actors/actresses with two or more Academy Awards in the 4 acting categories from 1970 to 2011",
     "answers": [
@@ -4229,7 +4200,7 @@
   },
   {
     "id": "b23c4575-8d9a-4759-8982-9c54129fa06e",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 18 directors with two or more Academy Awards in the directing category as of 2011",
     "answers": [
@@ -4257,7 +4228,7 @@
   },
   {
     "id": "c9c12603-afc0-4881-8e43-d1667ae26f3c",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 7 'good guy' and 12 'bad guy' characters that appeared at least 3 times in the Batman TV series from 1966-1968",
     "answers": [
@@ -4286,7 +4257,7 @@
   },
   {
     "id": "7418532f-a32f-4e8a-bfa5-e21b72f02af5",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the first 20 prime integers",
     "answers": [
@@ -4316,7 +4287,7 @@
   },
   {
     "id": "db307c33-80da-438a-95f8-f29c65ee62fd",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 13 countries that have won Olympic medals of any kind in hockey (men's or women's) as of the 2010 games",
     "answers": [
@@ -4339,7 +4310,7 @@
   },
   {
     "id": "6fdffe27-7706-41eb-a46c-aa021df7c5c4",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 diamond mining countries in the world as of 2008",
     "answers": [
@@ -4359,7 +4330,7 @@
   },
   {
     "id": "49bb9906-5ccf-4fb6-b2f1-d1f17c5004e1",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 men awarded the title Sexiest Man Alive by People magazine from 1995 to 2012",
     "answers": [
@@ -4384,7 +4355,7 @@
   },
   {
     "id": "e9ec3efa-be9c-40ba-b688-02d9373a6cb6",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the top 20 magazines in circulation as of the first half of 2012, according to the Audit Bureau of Circulations",
     "answers": [
@@ -4414,7 +4385,7 @@
   },
   {
     "id": "7450907a-92d5-47e2-8e45-f776d8f2a371",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the top 16 countries in the 2012 Summer Olympics in terms of total medals won",
     "answers": [
@@ -4440,7 +4411,7 @@
   },
   {
     "id": "43211873-5380-4259-8ba5-d0949238a050",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 14 James Bond books published by Ian Fleming",
     "answers": [
@@ -4464,7 +4435,7 @@
   },
   {
     "id": "369bb60f-7a87-4d9e-9151-d5ed920f23f0",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 Labors of Hercules",
     "answers": [
@@ -4486,7 +4457,7 @@
   },
   {
     "id": "0ace7aab-463f-471f-8187-710a8741efd0",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 7 dwarfs (Disney's 1937 Snow White) or the nicknames of the 5 Spice Girls",
     "answers": [
@@ -4508,7 +4479,7 @@
   },
   {
     "id": "bb5a8a06-71e9-4ac0-8d8d-22733c769169",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 7 Cardinal Virtues or the 7 Deadly Sins",
     "answers": [
@@ -4532,7 +4503,7 @@
   },
   {
     "id": "f5d7010c-2715-4a62-83ea-e9dbbf84df36",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 highest paid chefs in 2012 according to Forbes.com",
     "answers": [
@@ -4552,7 +4523,7 @@
   },
   {
     "id": "476c3071-1dee-416a-93ef-2e72d709bee8",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 most powerful people in 2012 according to Forbes.com",
     "answers": [
@@ -4577,7 +4548,7 @@
   },
   {
     "id": "085fa0c5-ddf6-4f25-9c5a-bd4fb81bd902",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 16 Seinfeld characters that appeared in at least 10 episodes",
     "answers": [
@@ -4603,7 +4574,7 @@
   },
   {
     "id": "dea65787-314a-4e5f-a5ee-951cf253656c",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 20 Big Bang Theory characters that appeared in at least 5 episodes as of Season 6",
     "answers": [
@@ -4633,7 +4604,7 @@
   },
   {
     "id": "c11e365b-72be-4587-b76e-a1700ea600c9",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 11 main characters appearing in the TV show M*A*S*H throughout its run from 1972 - 1983",
     "answers": [
@@ -4654,7 +4625,7 @@
   },
   {
     "id": "f8f4efdb-6f34-4f6e-ba8d-bb624f7c3d02",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 19 actors with at least 5 Best Actor Oscar nominations as of 2012",
     "answers": [
@@ -4683,7 +4654,7 @@
   },
   {
     "id": "32e3c5ac-e52b-452b-8cbe-6cd1e5ba7a32",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 9 actors with at least 2 Best Actor Oscars as of 2012",
     "answers": [
@@ -4702,7 +4673,7 @@
   },
   {
     "id": "f30df19c-84b0-452a-8e0d-7dfd8b808d43",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 13 actresses with at least 2 Best Actress Oscars as of 2012",
     "answers": [
@@ -4725,7 +4696,7 @@
   },
   {
     "id": "79f01dc7-783d-4838-a186-dd0c765196de",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 18 actresses with at least 5 Best Actress Oscar nominations as of 2012",
     "answers": [
@@ -4753,7 +4724,7 @@
   },
   {
     "id": "785fb8af-ac9e-4fbc-8e50-c6549f1ce47e",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 10 songs determined by the BBC in 2012 to be the richest songs in the world (i.e. have earned the most money through sales and royalties)",
     "answers": [
@@ -4773,7 +4744,7 @@
   },
   {
     "id": "e62ac412-7f5e-445c-ab1e-9f144fc82d49",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 14 states in the USA that do not have the letter 'A' in their name",
     "answers": [
@@ -4797,7 +4768,7 @@
   },
   {
     "id": "8fbf6051-ea1c-423c-9385-6fd6f49d9263",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the original 13 states of the USA as recognized by the Articles of Confederation",
     "answers": [
@@ -4820,7 +4791,7 @@
   },
   {
     "id": "3b7dcc40-8580-4b2f-b124-7f6849199079",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 14 studio albums included in The Beatles Stereo Box Set collection released in 2009",
     "answers": [
@@ -4844,7 +4815,7 @@
   },
   {
     "id": "2576176a-0d79-4fc9-966d-9ba8694dcce3",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 18 songs by Elvis Presley that reached Number 1 on the Billboard charts",
     "answers": [
@@ -4872,7 +4843,7 @@
   },
   {
     "id": "edd9e2b7-02a5-450f-ac6e-a9530a7bcaa2",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 18 songs on Michael Jackson's Number Ones album",
     "answers": [
@@ -4901,7 +4872,7 @@
   {
     "id": "40d2fb6e-7845-44b3-9fdb-f28c5c4b6c80",
     "category": "Uncategorized",
-    "difficulty": "Medium",
+    "difficulty": "Geography",
     "question": "List the 15 permanent and non-permanent countries of the UN Security Council as of January 1, 2013",
     "answers": [
       "Argentina",
@@ -4925,7 +4896,7 @@
   },
   {
     "id": "ab694724-3f8d-4ebb-b36f-c6e8299886a8",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 20 professional sports teams in Canada as of January 1, 2013",
     "answers": [
@@ -4955,77 +4926,49 @@
   },
   {
     "id": "7357f9ff-fc5f-4f9b-8fb4-7c8d5452a047",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
-    "question": "List the 12 NHL hockey teams that have never won the Stanley Cup as of the end of the 2011-2012 season",
+    "question": "List the 10 current NHL teams that have never won the Stanley Cup (as of the end of the 2024-2025 season)",
     "answers": [
       "Buffalo Sabres",
       "Columbus Blue Jackets",
-      "Florida Panthers",
       "Minnesota Wild",
       "Nashville Predators",
       "Ottawa Senators",
-      "Phoenix Coyotes",
+      "Utah Mammoth",
       "San Jose Sharks",
-      "St. Louis Blues",
+	  "Seattle Kraken",
       "Vancouver Canucks",
-      "Washington Capitals",
       "Winnipeg Jets"
     ],
     "source": ": http://en.wikipedia.org/wiki/List_of_NHL_franchise_post-season_droughts",
     "tags": []
   },
   {
-    "id": "a295c2be-6ae0-43c6-90b1-aece43bb328d",
-    "category": "Uncategorized",
-    "difficulty": "Medium",
-    "question": "List the 18 professional sports teams in California as of January 1, 2013",
-    "answers": [
-      "Anaheim Ducks - NHL",
-      "CD Chivas USA - MLS",
-      "Golden State Warriors - NBA",
-      "Los Angeles Angels of Anaheim - MLB",
-      "Los Angeles Clippers - NBA",
-      "Los Angeles Dodgers - MLB",
-      "Los Angeles Galaxy - MLS",
-      "Los Angeles Kings - NHL",
-      "Los Angeles Lakers - NBA",
-      "Oakland Athletics - MLB",
-      "Oakland Raiders - NFL",
-      "Sacramento Kings - NBA",
-      "San Diego Chargers - NFL",
-      "San Diego Padres - MLB",
-      "San Francisco 49ers - NFL",
-      "San Francisco Giants - MLB",
-      "San Jose Earthquakes - MLS",
-      "San Jose Sharks - NHL"
-    ],
-    "source": ": http://en.wikipedia.org/wiki/Major_professional_sports_teams_of_the_United_States_and_Canada#New_York_.288.29",
-    "tags": []
-  },
-  {
     "id": "5655cb24-9ca6-4816-bc85-6bb7a7730ca9",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
-    "question": "List the 10 NFL football teams that have never won a Super Bowl as of the end of the 2012-13 season",
+    "question": "List the 12 NFL teams that have never won a Super Bowl as of the end of the 2025-26 season",
     "answers": [
-      "Minnesota Vikings",
-      "Buffalo Bills",
-      "Cincinnati Bengals",
-      "Philadelphia Eagles",
-      "San Diego Chargers",
+      "Arizona Cardinals",
       "Atlanta Falcons",
-      "Tennessee Titans",
+      "Buffalo Bills",
       "Carolina Panthers",
-      "Seattle Seahawks",
-      "Arizona Cardinals"
+      "Cincinnati Bengals",
+	  "Cleveland Browns",
+	  "Detroit Lions",
+	  "Houston texans"
+	  "Jacksonville Jaguars",
+      "Los Angeles Chargers",
+      "Minnesota Vikings",
+      "Tennessee Titans",
     ],
     "source": ": http://wiki.answers.com/Q/What_NFL_teams_have_never_won_a_Super_Bowl",
     "tags": []
   },
   {
     "id": "ed125bea-a933-4142-95cf-faea334cf6fa",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 9 James Bond movies as of 2013 in which an Aston Martin makes an appearance",
     "answers": [
@@ -5044,7 +4987,7 @@
   },
   {
     "id": "8ecef852-a029-4b82-906a-c2758136d700",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 15 movies that have won at least 8 Academy Awards as of 2012",
     "answers": [
@@ -5069,7 +5012,7 @@
   },
   {
     "id": "499e5670-822d-4d10-a892-75a6207703ae",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 14 actors with at least 6 Academy Award nominations as of 2013",
     "answers": [
@@ -5093,7 +5036,7 @@
   },
   {
     "id": "c3d7e4d5-d84d-41d1-85d5-f458f641fbaa",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 18 actresses with at least 6 Academy Award nominations as of 2013",
     "answers": [
@@ -5121,7 +5064,7 @@
   },
   {
     "id": "d4a87958-a60d-4c90-9971-571351b0a7ab",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 12 actors who portrayed The Dirty Dozen in the 1967 movie",
     "answers": [
@@ -5143,7 +5086,7 @@
   },
   {
     "id": "ed8283ad-8e6c-4e7f-88f1-7446fea0f5ac",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 12 actors who portrayed 12 Angry Men in the 1957 movie",
     "answers": [
@@ -5165,7 +5108,7 @@
   },
   {
     "id": "4296cacf-099f-42b3-9c44-ab0f5fcd6743",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 11 actors who portrayed Ocean's Eleven in the 1960 movie",
     "answers": [
@@ -5186,7 +5129,7 @@
   },
   {
     "id": "56c6ed74-4a86-4d72-92fb-f857693ba7b4",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 14 NHL teams that played in the 1971-72 season",
     "answers": [
@@ -5210,7 +5153,7 @@
   },
   {
     "id": "3c448364-ee39-4997-90c7-18b9cc264067",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 18 NHL players who scored at least 600 regular season goals as of the end of the 2011-12 season",
     "answers": [
@@ -5238,7 +5181,7 @@
   },
   {
     "id": "54a232c5-9d18-483b-afa5-38cb88ed9b26",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 12 players on the American basketball dream team in the 1992 Olympics",
     "answers": [
@@ -5260,7 +5203,7 @@
   },
   {
     "id": "44e99bda-6805-4bc7-859d-924f3eaac8ac",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 20 sugar producing countries in 2012",
     "answers": [
@@ -5290,7 +5233,7 @@
   },
   {
     "id": "224d67a9-1688-4730-a70f-f22848e2d9b3",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 rice producing countries in 2012",
     "answers": [
@@ -5310,7 +5253,7 @@
   },
   {
     "id": "4c868000-9599-4080-aecc-e3e38fd9bdf8",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 20 potato producing countries in 2012",
     "answers": [
@@ -5340,7 +5283,7 @@
   },
   {
     "id": "e985bde2-b3a8-42a1-86bf-215fd4a5d019",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries with the largest Muslim populations",
     "answers": [
@@ -5360,7 +5303,7 @@
   },
   {
     "id": "6f86a1a6-762b-43b1-8880-3e11afbee1a2",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the top 10 countries with the largest debt",
     "answers": [
@@ -5380,7 +5323,7 @@
   },
   {
     "id": "4a47883f-e387-4ed5-a0ee-5be6e60ac7a2",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 10 Most Popular TV Series Finales of All Time as of 2012",
     "answers": [
@@ -5400,7 +5343,7 @@
   },
   {
     "id": "2b79b69f-7a9f-4f48-8c5e-612d65832dde",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 17 boxing weight classes according the World Boxing Association as of 2012",
     "answers": [
@@ -5427,7 +5370,7 @@
   },
   {
     "id": "f4e652db-053b-4199-9ce0-6ba52f538279",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 15 professional heavyweight boxers regarded as undisputed champions from 1950 to 2013",
     "answers": [
@@ -5452,7 +5395,7 @@
   },
   {
     "id": "4e5a706f-fb8c-48ce-a976-ae340bb9d275",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 20 largest hotels in Las Vegas as of 2013 in terms of the number of rooms and suites",
     "answers": [
@@ -5482,7 +5425,7 @@
   },
   {
     "id": "02009acd-ea2a-45f3-9f6f-91055764fd1a",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 12 movies for which Jack Nicholson was nominated for an Academy Award as of 2013",
     "answers": [
@@ -5504,7 +5447,7 @@
   },
   {
     "id": "8ab560c6-a2ab-49bd-8067-f707d3b570a5",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the episode titles of the first 6 Star Wars movies or the first 4 Indiana Jones movies (theatrical releases)",
     "answers": [
@@ -5524,7 +5467,7 @@
   },
   {
     "id": "35d7b20e-0cdd-4ff1-855d-233b735fe998",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 4 main child characters in South Park or their 13 parents and siblings",
     "answers": [
@@ -5551,7 +5494,7 @@
   },
   {
     "id": "d979f710-9bff-49fa-9458-c7dfcfa5d109",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 12 male tennis players who held the ATP Number One ranking for at least 50 weeks as of 2013",
     "answers": [
@@ -5573,7 +5516,7 @@
   },
   {
     "id": "57255ff2-e2d5-4be6-8302-ddae6eaa0566",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 18 professional men's team located in California as of 2013 (MLB, NHL, NBA, NFL, MLS)",
     "answers": [
@@ -5601,7 +5544,7 @@
   },
   {
     "id": "f18ed27b-927a-4030-a0f2-86d506e444da",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 20 professional mens' teams in Canada as of 2013 (MLB, NHL, NBA, CFL, MLS)",
     "answers": [
@@ -5631,7 +5574,7 @@
   },
   {
     "id": "bcef2dff-e774-41fc-96ec-246c4edb7b6b",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 ingredients of a traditional banana split according to food.com",
     "answers": [
@@ -5651,7 +5594,7 @@
   },
   {
     "id": "02394e09-a748-4172-abe3-4c0fcf7fef26",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the first 20 feature animations from Walt Disney studios",
     "answers": [
@@ -5681,7 +5624,7 @@
   },
   {
     "id": "77e1f2b0-813f-4a24-a15a-a69d0b0e9f36",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 12 NFL teams that won the first 30 Super Bowls",
     "answers": [
@@ -5703,7 +5646,7 @@
   },
   {
     "id": "75424a78-e0d2-405e-b669-4cf1ca5b8365",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
     "question": "List the 20 animated Disney princesses as of 2013",
     "answers": [
@@ -5733,7 +5676,7 @@
   },
   {
     "id": "ee42ac87-bfa1-4c10-b03b-a41746fd1c33",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 15 World's Most Powerful Celebrities in 2012 according to Forbes.com",
     "answers": [
@@ -5758,7 +5701,7 @@
   },
   {
     "id": "cbea6a58-dc75-4abc-b688-3487ba5a6341",
-    "category": "Uncategorized",
+    "category": "Sports",
     "difficulty": "Medium",
     "question": "List the 19 NHL individual awards or trophies as of 2013",
     "answers": [
@@ -5787,7 +5730,7 @@
   },
   {
     "id": "7162289b-904c-43bb-bf11-3ac2ead6ce78",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 10 brightest breeds of dog according to Dr Stanley Coren in his book The Intelligence of Dogs",
     "answers": [
@@ -5807,7 +5750,7 @@
   },
   {
     "id": "ff32a27a-d4ed-4904-93bd-e4edf270e616",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 20 most popular breeds of dogs in America in 2012 according to the American Kennel Club",
     "answers": [
@@ -5837,7 +5780,7 @@
   },
   {
     "id": "a374a10f-d601-4187-ace8-ed4b28df6e22",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the category Artists and Entertainers",
     "answers": [
@@ -5867,7 +5810,7 @@
   },
   {
     "id": "fa8e0247-7f1a-488c-96b0-25641cca4e7a",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the category Heroes and Icons",
     "answers": [
@@ -5897,7 +5840,7 @@
   },
   {
     "id": "b035d4bd-d193-4238-93fa-db2947a0f1bd",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the category  Scientists and Thinkers",
     "answers": [
@@ -5927,9 +5870,9 @@
   },
   {
     "id": "cd7e5b71-a5b9-4a43-8eb0-35c6cd149ef7",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
-    "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the catagory Builders and Titans",
+    "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the category Builders and Titans",
     "answers": [
       "Stephen D. Bechtel, Sr.",
       "Leo Burnett",
@@ -5957,7 +5900,7 @@
   },
   {
     "id": "2712f820-2bb0-4940-930d-086ea05b8145",
-    "category": "Uncategorized",
+    "category": "History",
     "difficulty": "Medium",
     "question": "List the 20 names in TIME Magazine's 100 most influential people of the 20th century in the category in the category Leaders and Revolutionaries",
     "answers": [
@@ -5987,7 +5930,7 @@
   },
   {
     "id": "bf16695c-424d-49d1-9740-77bd5719d689",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 18 dead celebrities depicted in the South Park episode of 2009 entitled 'Dead Celebrities'",
     "answers": [
@@ -6015,7 +5958,7 @@
   },
   {
     "id": "96d33417-90df-4ba0-9db3-25ab49b6a836",
-    "category": "Uncategorized",
+    "category": "Literature",
     "difficulty": "Medium",
     "question": "List the 9 'characters' appearing in the learn to read primer Fun With Dick and Jane",
     "answers": [
@@ -6034,7 +5977,7 @@
   },
   {
     "id": "442cffe0-e916-4c30-b98c-5e125b98f8a8",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 18 United Nations member countries in 2013 whose names begin and end with a vowel",
     "answers": [
@@ -6062,7 +6005,7 @@
   },
   {
     "id": "5ee437a2-d81b-496d-8e68-57a12c5abaab",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
     "question": "List the 12 United Nations member countries in 2013 whose names end in 'land' or 'lands'",
     "answers": [
@@ -6084,9 +6027,9 @@
   },
   {
     "id": "33be7b2a-1923-465f-918f-dcc619811bd8",
-    "category": "Uncategorized",
+    "category": "Geography",
     "difficulty": "Medium",
-    "question": "List the 17 United Nations member countries in 2013 whose names begin 'C'",
+    "question": "List the 17 United Nations member countries in 2013 whose names begin with 'C'",
     "answers": [
       "Cambodia",
       "Cameroon",
@@ -6111,7 +6054,7 @@
   },
   {
     "id": "d18b063f-44a8-4d52-b7d1-acb661f9f276",
-    "category": "Uncategorized",
+    "category": "Music",
     "difficulty": "Medium",
     "question": "List the 15 things John Lennon does not believe in, in his song 'God'",
     "answers": [
@@ -6136,7 +6079,7 @@
   },
   {
     "id": "f3c52247-4e37-426d-8c7d-81eec669290e",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the first 10 Euclidean polygons (i.e. 3 sided to 12 sided)",
     "answers": [
@@ -6156,7 +6099,7 @@
   },
   {
     "id": "eed83e77-2448-4b0c-b9a5-9c4d184e790d",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 8 main characters in WKRP in Cincinnati",
     "answers": [
@@ -6174,7 +6117,7 @@
   },
   {
     "id": "96f17477-006c-468c-83e7-4718766c34b7",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 15 on-screen characters appearing in at least 20 episodes of Soap",
     "answers": [
@@ -6199,7 +6142,7 @@
   },
   {
     "id": "0b6479bb-64bf-47cc-9c65-b243bcbcbcfd",
-    "category": "Uncategorized",
+    "category": "General",
     "difficulty": "Medium",
     "question": "List the 12 official Scrabble dictionary anagrams that can be made using the 5 letters of the word 'pears'",
     "answers": [
@@ -6246,7 +6189,7 @@
   },
   {
     "id": "9f355504-261e-47fe-9e92-4b32e01db053",
-    "category": "Uncategorized",
+    "category": "TV",
     "difficulty": "Medium",
     "question": "List the 7 characters who reside in the Jade Palace in the TV cartoon Kung Fu Panda",
     "answers": [
@@ -6263,9 +6206,9 @@
   },
   {
     "id": "7f750f2c-a0a8-412f-8c9a-2d300f293c7d",
-    "category": "Uncategorized",
+    "category": "Movies",
     "difficulty": "Medium",
-    "question": "List the 20 canonical James Bond movies prior to Daniel Craig assuming the role",
+    "question": "List the 25 canonical James Bond movies as of 2025",
     "answers": [
       "Dr. No (1962)",
       "From Russia with Love (1963)",
@@ -6286,9 +6229,38 @@
       "GoldenEye (1995)",
       "Tomorrow Never Dies (1997)",
       "The World Is Not Enough (1999)",
-      "Die Another Day (2002)"
+      "Die Another Day (2002)",
+	  "Casino Royale (2006)",
+	  "Quantum of Solace (2008)",
+	  "Skyfall (2012)",
+	  "Spectre (2015)",
+	  "No Time To Die (2021)"
     ],
     "source": ": http://www.bondmovies.com/movies",
+    "tags": []
+  }
+  {
+    "id": "7f750f2c-a0a8-412f-8c9a-2d300f293c7d",
+    "category": "General",
+    "difficulty": "Difficult",
+    "question": "List the 7 happiest and 7 grumpiest breeds of dogs",
+    "answers": [
+      "Golden Retriever (Happy)",
+      "Labrador Retriever (Happy)",
+      "Cavalier King Charles Spaniel (Happy)",
+      "Corgi (Happy)",
+      "Bichon Frise (Happy)",
+      "Irish Setter (Happy)",
+      "Beagle (Happy)",
+      "Chow Chow (Grumpy)",
+      "Basenji (Grumpy)",
+      "Shar Pei (Grumpy)",
+      "Afghan Hound (Grumpy)",
+      "Scottish Terrier (Grumpy)",
+      "Pekingese (Grumpy)",
+      "Bulldog (Grumpy)"
+    ],
+    "source": ": https://www.msn.com/en-ca/lifestyle/pets/7-of-the-happiest-dog-breeds-in-the-world-and-7-of-the-grumpiest-ones",
     "tags": []
   }
 ]
