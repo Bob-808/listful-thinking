@@ -238,54 +238,6 @@
     ],
     "source": "Original Yola Game",
     "tags": []
-  },
-  {
-    "id": "0ec881ba-7485-4575-be8d-1219d37a9c69",
-    "category": "Sports",
-    "difficulty": "Medium",
-    "question": "List the 13 countries that hosted one or more Summer Olympics from 1960 to 2012.",
-    "answers": [
-      "Australia",
-      "Britain",
-      "Canada",
-      "China",
-      "Germany (West)",
-      "Greece",
-      "Italy",
-      "Japan",
-      "Mexico",
-      "Russia (USSR, Soviet Union)",
-      "South Korea",
-      "Spain",
-      "USA"
-    ],
-    "source": "Original Yola Game",
-    "tags": []
-  },
-  {
-    "id": "99adc84d-480c-4028-a968-e2ac71977871",
-    "category": "Movies",
-    "difficulty": "Medium",
-    "question": "List AFI's top 15 American most thrilling movies of all time as of 2001.",
-    "answers": [
-      "Alien",
-      "Bonnie and Clyde",
-      "Deliverance",
-      "Jaws",
-      "King Kong",
-      "North by Northwest",
-      "Psycho",
-      "Raiders of the Lost Ark",
-      "Rear Window",
-      "Rosemary's Baby",
-      "The Birds",
-      "The Exorcist",
-      "The French Connection",
-      "The Godfather",
-      "The Silence of the Lambs"
-    ],
-    "source": "Original Yola Game",
-    "tags": []
   }
   
 ]
