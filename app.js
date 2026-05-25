@@ -94,7 +94,8 @@ function oldstartGame() {
 }
 
 function nextQuestion() {
-  if (current alert("No more questions!");  if (currentQuestionIndex >= shuffledQuestions.length) {
+  if (currentQuestionIndex >= shuffledQuestions.length) {
+    alert("No more questions!");
     return;
   }
 
