@@ -4,7 +4,9 @@ let activePlayers = [];
 let currentPlayerIndex = 0;
 let currentQuestion = null;
 let foundAnswers = [];
-
+let shuffledQuestions = [];
+let currentQuestionIndex = 0;
+``
 // Load JSON
 async function oldloadQuestions() {
   const res = await fetch("questions.json");
@@ -62,6 +64,24 @@ function startGame() {
     return;
   }
 
+  // ✅ Copy and shuffle questions
+  shuffledQuestions = [...questions];
+  shuffleArray(shuffledQuestions);
+
+  currentQuestionIndex = 0;
+
+  document.getElementById("setup").style.display = "none";
+  document.getElementById("game").style.display = "block";
+
+  nextQuestion();
+}
+
+function oldstartGame() {
+  if (players.length < 2) {
+    alert("Need at least 2 players");
+    return;
+  }
+
   if (!questions.length) {
     alert("Questions still loading...");
     return;
@@ -74,6 +94,26 @@ function startGame() {
 }
 
 function nextQuestion() {
+  if (currentQuestionIndex >= shuffledQuestions.length) {
+    alert("No more questions!");
+    return;
+  }
+
+  currentQuestion = shuffledQuestions[currentQuestionIndex];
+  currentQuestionIndex++;
+
+  activePlayers = [...players];
+  currentPlayerIndex = 0;
+  foundAnswers = [];
+
+  document.getElementById("question").textContent = currentQuestion.question;
+
+  renderPlayers();
+  renderAnswers();
+  updateTurn();
+}
+
+function oldnextQuestion() {
   currentQuestion = questions[Math.floor(Math.random() * questions.length)];
 
   activePlayers = [...players];
@@ -107,6 +147,14 @@ function renderAnswers() {
       </div>
     `;
   }).join("");
+}
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [array[i], array[j]] = [array[j], array[i]];
+  }
 }
 
 function escapeQuotes(str) {
