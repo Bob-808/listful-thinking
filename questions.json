@@ -238,6 +238,28 @@
     ],
     "source": "Original Yola Game",
     "tags": []
+  },
+    {
+    "id": "0ec881ba-7485-4575-be8d-1219d37a9c69",
+    "category": "Sports",
+    "difficulty": "Medium",
+    "question": "List the 13 countries that hosted one or more Summer Olympics from 1960 to 2012.",
+    "answers": [
+      "Australia",
+      "Britain",
+      "Canada",
+      "China",
+      "Germany (West)",
+      "Greece",
+      "Italy",
+      "Japan",
+      "Mexico",
+      "Russia (USSR, Soviet Union)",
+      "South Korea",
+      "Spain",
+      "USA"
+    ],
+    "source": "Original Yola Game",
+    "tags": []
   }
-  
 ]
