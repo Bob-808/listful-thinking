@@ -100,6 +100,8 @@ function nextQuestion() {
   }
 
   currentQuestion = shuffledQuestions[currentQuestionIndex];
+// edit this  
+  currentQuestion = shuffledQuestions[shuffledQuestions.length];
   currentQuestionIndex++;
 
   activePlayers = [...players];
