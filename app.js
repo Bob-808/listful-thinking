@@ -98,7 +98,7 @@ function nextQuestion() {
     alert("No more questions!");
     return;
   }
-
+alert(shuffledQuestions.length);
   currentQuestion = shuffledQuestions[currentQuestionIndex];
   currentQuestionIndex++;
 
