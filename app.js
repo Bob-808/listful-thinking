@@ -6,7 +6,7 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
-``
+
 // Load JSON
 async function oldloadQuestions() {
   const res = await fetch("questions.json");
