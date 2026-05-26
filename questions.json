@@ -155,7 +155,7 @@
   {
     "id": "af005fed-7233-4871-9441-761c74382b9b",
     "category": "General",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question": "List the 10 distinct poker hands according to Hoyle",
     "answers": [
       "Flush",
