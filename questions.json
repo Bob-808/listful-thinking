@@ -53,7 +53,7 @@
       "Peter",
       "Philip",
       "Simon",
-	  "Thaddeus (aka Judas/Jude - son of James)",
+      "Thaddeus (aka Judas/Jude - son of James)",
       "Thomas"
     ],
     "source": "Original Yola Game",
@@ -155,7 +155,7 @@
   {
     "id": "af005fed-7233-4871-9441-761c74382b9b",
     "category": "General",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question": "List the 10 distinct poker hands according to Hoyle",
     "answers": [
       "Flush",
@@ -744,7 +744,7 @@
     "answers": [
       "Barack Obama",
       "Bill Clinton",
-	  "Donald Trump",
+      "Donald Trump",
       "Dwight Eisenhower",
       "Franklin D Roosevelt",
       "George H Bush",
@@ -753,7 +753,7 @@
       "Harry Truman",
       "Herbert Hoover",
       "Jimmy Carter",
-	  "Joe Biden",
+      "Joe Biden",
       "John F Kennedy",
       "Lyndon Johnson",
       "Richard Nixon",
@@ -1290,7 +1290,7 @@
     "question": "List the 16 American presidents who served two or more complete terms as of 2024.",
     "answers": [
       "Andrew Jackson",
-	  "Barack Obama",
+      "Barack Obama",
       "Bill Clinton",
       "Dwight Eisenhower",
       "Franklin Roosevelt",
@@ -1304,7 +1304,7 @@
       "Theodore Roosevelt",
       "Thomas Jefferson",
       "Ulysses S Grant",
-      "Woodrow Wilson"      
+      "Woodrow Wilson"
     ],
     "source": "Original Yola Game",
     "tags": []
@@ -2142,13 +2142,13 @@
     "question": "List the 18 novels of John Steinbeck",
     "answers": [
       "Burning Bright",
-	  "Cannery Row",
+      "Cannery Row",
       "Cup of Gold",
       "East of Eden",
       "In Dubious Battle",
       "Of Mice and Men",
       "Sweet Thursday",
-	  "The Acts of King Arthur and His Noble Knights",
+      "The Acts of King Arthur and His Noble Knights",
       "The Grapes of Wrath",
       "The Moon is Down",
       "The Pastures of Heaven",
@@ -2465,7 +2465,7 @@
       "Diana Ross",
       "Dionne Warwick",
       "Huey Lewis",
-	  "James Ingram",
+      "James Ingram",
       "Kenny Loggins",
       "Kenny Rogers",
       "Kim Carnes",
@@ -4936,7 +4936,7 @@
       "Ottawa Senators",
       "Utah Mammoth",
       "San Jose Sharks",
-	  "Seattle Kraken",
+      "Seattle Kraken",
       "Vancouver Canucks",
       "Winnipeg Jets"
     ],
@@ -4954,13 +4954,13 @@
       "Buffalo Bills",
       "Carolina Panthers",
       "Cincinnati Bengals",
-	  "Cleveland Browns",
-	  "Detroit Lions",
-	  "Houston Texans",
-	  "Jacksonville Jaguars",
+      "Cleveland Browns",
+      "Detroit Lions",
+      "Houston Texans",
+      "Jacksonville Jaguars",
       "Los Angeles Chargers",
       "Minnesota Vikings",
-      "Tennessee Titans",
+      "Tennessee Titans"
     ],
     "source": ": http://wiki.answers.com/Q/What_NFL_teams_have_never_won_a_Super_Bowl",
     "tags": []
@@ -6229,11 +6229,11 @@
       "Tomorrow Never Dies (1997)",
       "The World Is Not Enough (1999)",
       "Die Another Day (2002)",
-	  "Casino Royale (2006)",
-	  "Quantum of Solace (2008)",
-	  "Skyfall (2012)",
-	  "Spectre (2015)",
-	  "No Time To Die (2021)"
+      "Casino Royale (2006)",
+      "Quantum of Solace (2008)",
+      "Skyfall (2012)",
+      "Spectre (2015)",
+      "No Time To Die (2021)"
     ],
     "source": ": http://www.bondmovies.com/movies",
     "tags": []
@@ -6259,7 +6259,7 @@
       "Pekingese (Grumpy)",
       "Bulldog (Grumpy)"
     ],
-    "source": ": https://www.msn.com/en-ca/lifestyle/pets/7-of-the-happiest-dog-breeds-in-the-world-and-7-of-the-grumpiest-ones",
+    "source": "on-line Opinion",
     "tags": []
   }
 ]
