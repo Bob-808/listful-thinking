@@ -98,7 +98,6 @@ function nextQuestion() {
     alert("No more questions!");
     return;
   }
-alert(shuffledQuestions.length);
   currentQuestion = shuffledQuestions[currentQuestionIndex];
   currentQuestionIndex++;
 
@@ -150,6 +149,7 @@ function renderAnswers() {
 }
 
 function shuffleArray(array) {
+	alert("Question Count: " + array.length);
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
 
