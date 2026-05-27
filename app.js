@@ -6,6 +6,7 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
+let Release = 1.2;
 
 // Load JSON
 async function oldloadQuestions() {
@@ -19,7 +20,7 @@ async function loadQuestions() {
     questions = await res.json();
 
     console.log("Loaded:", questions.length);
-	alert("Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart.");
+	alert("Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Releasse: " + Release);
   } catch (e) {
     alert("Failed to load questions!");
     console.error(e);
@@ -150,7 +151,6 @@ function renderAnswers() {
 }
 
 function shuffleArray(array) {
-	alert("Question Count: " + array.length);
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
 
