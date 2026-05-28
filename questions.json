@@ -6671,5 +6671,30 @@
     ],
     "source": "https://www.imdb.com/title/tt0050032/fullcredits/?ref_=ttep_ov_ql_1",
     "tags": []
+  },
+  {
+    "id": "bfd514fa-4eea-47a9-a6ae-773596699126",
+    "category": "TV",
+    "difficulty": "Medium",
+    "question": "List the 19 regular characters in Green Acres- 1965-1971 (appearing in at least 10 episodes)",
+    "answers": [
+      "Alf Monroe",
+      "Doris Ziffel",
+      "Eb Dawson",
+      "Floyd Smoot",
+      "Fred Ziffel",
+      "Lisa Douglas",
+      "Mother",
+      "Mr. Haney",
+      "Mr. Kimball",
+      "Newt Kiley",
+      "Oliver Wendell Douglas",
+      "Ralph Monroe",
+      "Roy Trendell",
+      "Sam Drucker",
+      "Uncle Joe"
+    ],
+    "source": "https://www.imdb.com/title/tt0058808/fullcredits/?ref_=tt_ov_ql_1",
+    "tags": []
   }
 ]
