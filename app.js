@@ -20,7 +20,7 @@ async function loadQuestions() {
     questions = await res.json();
 
     console.log("Loaded:", questions.length);
-	alert("Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Releasse: " + Release);
+	alert("Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Releasse: " + Release, "WELCOME");
   } catch (e) {
     alert("Failed to load questions!");
     console.error(e);
