@@ -32,7 +32,7 @@ async function loadQuestions() {
 	);
 
   } catch (e) {
-    alert("Failed to load questions!");
+    showModal("Error Loading!", "Failed to load questions!");
     console.error(e);
   }
 }
@@ -53,26 +53,9 @@ function renderPlayersSetup() {
   list.innerHTML = players.map(p => `<div>${p}</div>`).join("");
 }
 
-function oldstartGame() {
-  if (players.length < 2) {
-    alert("Need at least 2 players");
-    return;
-  }
-
-  if (!questions || questions.length === 0) {
-    alert("Still loading questions...");
-    return;
-  }
-
-  document.getElementById("setup").style.display = "none";
-  document.getElementById("game").style.display = "block";
-
-  nextQuestion();
-}
-
 function startGame() {
   if (players.length < 2) {
-    alert("Need at least 2 players");
+    showModal("Game Requirements", "Need at least 2 players");
     return;
   }
 
@@ -88,44 +71,17 @@ function startGame() {
   nextQuestion();
 }
 
-function oldstartGame() {
-  if (players.length < 2) {
-    alert("Need at least 2 players");
-    return;
-  }
-
-  if (!questions.length) {
-    alert("Questions still loading...");
-    return;
-  }
-
-  document.getElementById("setup").style.display = "none";
-  document.getElementById("game").style.display = "block";
-
-  nextQuestion();
-}
-
 function nextQuestion() {
+  // ✅ If we've reached the end → reshuffle
   if (currentQuestionIndex >= shuffledQuestions.length) {
-    alert("No more questions!");
-    return;
+    shuffleArray(shuffledQuestions);
+    currentQuestionIndex = 0;
+
+    showModal("New Cycle", "Reshuffling questions...");
   }
+
   currentQuestion = shuffledQuestions[currentQuestionIndex];
   currentQuestionIndex++;
-
-  activePlayers = [...players];
-  currentPlayerIndex = 0;
-  foundAnswers = [];
-
-  document.getElementById("question").textContent = currentQuestion.question;
-
-  renderPlayers();
-  renderAnswers();
-  updateTurn();
-}
-
-function oldnextQuestion() {
-  currentQuestion = questions[Math.floor(Math.random() * questions.length)];
 
   activePlayers = [...players];
   currentPlayerIndex = 0;
@@ -190,7 +146,7 @@ function markAnswer(answer, element) {
 
 function markWrong() {
   const outPlayer = activePlayers[currentPlayerIndex];
-  alert(outPlayer + " is out!");
+  showModal("Elimination", outPlayer + " is out!");
 
   activePlayers.splice(currentPlayerIndex, 1);
 
@@ -222,12 +178,22 @@ function updateTurn() {
 }
 
 function checkEnd() {
+  // ✅ All answers found → move to next question
   if (foundAnswers.length === currentQuestion.answers.length) {
-    alert("All answers found!");
+    showModal("Round Complete", players[currentPlayerIndex] + " found the last answer!");
+
+    setTimeout(() => {
+      nextQuestion();
+    }, 800); // short delay so player sees message
   }
 
+  // ✅ All players eliminated → also go to next question
   if (activePlayers.length === 0) {
-    alert("No players left!");
+    showModal("Round Over", "No players left!");
+
+    setTimeout(() => {
+      nextQuestion();
+    }, 800);
   }
 }
 
@@ -268,7 +234,6 @@ window.onload = function () {
 
   renderPlayersSetup();
 };
-
 
 
 
