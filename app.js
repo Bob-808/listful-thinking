@@ -7,6 +7,7 @@ let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
 let Release = 1.4;
+let DEV_MODE = true;
 
 // Load JSON
 async function oldloadQuestions() {
@@ -242,21 +243,31 @@ function closeModal() {
 
 // preload
 window.onload = function () {
-  loadQuestions();
-};
+  if (DEV_MODE) {
+    // ✅ Local test questions
+    questions = [
+      {
+        question: "List the 3 primary colours",
+        answers: ["Red", "Blue", "Yellow"]
+      },
+      {
+        question: "List the 4 Beatles",
+        answers: ["John", "Paul", "George", "Ringo"]
+      }
+    ];
 
-renderPlayersSetup(); // optional
-//questions = [
-//  {
-//    question: "List the 3 primary colours",
-//   answers: ["Red", "Blue", "Yellow"]
-//  },
-//  {
-//    question: "List the 4 Beatles",
-//    answers: ["John", "Paul", "George", "Ringo"]
-//  }
-  
-//showModal("Test", "This should appear immediately");
+    showModal(
+      "DEV MODE",
+      "Using local test data (" + questions.length + " questions)"
+    );
+
+  } else {
+    // ✅ Load from JSON (GitHub / production)
+    loadQuestions();
+  }
+
+  renderPlayersSetup();
+};
 
 
 
