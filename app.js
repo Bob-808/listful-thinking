@@ -7,7 +7,7 @@ let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
 let Release = 1.4;
-let DEV_MODE = true;
+let DEV_MODE = false;
 
 // Load JSON
 async function oldloadQuestions() {
