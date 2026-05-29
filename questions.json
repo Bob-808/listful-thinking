@@ -1693,7 +1693,7 @@
     "id": "024e68a4-f3e8-405a-80eb-19c67c36bb98",
     "category": "General",
     "difficulty": "Medium",
-    "question": "List the 10 common body parts that are three letters long (no slang terms allowed eg 'ass', 'bum')",
+    "question": "List the 11 common body parts that are three letters long (no slang terms allowed eg 'ass', 'bum')",
     "answers": [
       "Arm",
       "Ear",
@@ -1704,9 +1704,10 @@
       "Leg",
       "Lip",
       "Rib",
-      "Toe"
+      "Toe",
+      "Gut"
     ],
-    "source": "Original Yola Game",
+    "source": "ChatGPT",
     "tags": []
   },
   {
@@ -1953,22 +1954,24 @@
     "id": "fc6e6365-8688-47a4-91c8-5be9f82efb1d",
     "category": "History",
     "difficulty": "Medium",
-    "question": "List the last 12 Canadian prime ministers as of 2012",
+    "question": "List the Canadian Prime Ministers from 1940 to 2026",
     "answers": [
       "Brian Mulroney",
       "Jean Chretien",
       "Joe Clark",
       "John Diefenbaker",
       "John Turner",
+      "Justin Trudeau",
       "Kim Campbell",
       "Lester Pearson",
-      "Louis St Laurent",
+      "Louis St. Laurent",
+      "Mark Carney",
       "Paul Martin",
       "Pierre Trudeau",
-      "Richard Bennett",
-      "Stephen Harper"
+      "Stephen Harper",
+      "William Lyon Mackenzie King"
     ],
-    "source": "Original Yola Game",
+    "source": "CoPilot",
     "tags": []
   },
   {
@@ -3252,7 +3255,7 @@
     "id": "6e78cca1-de07-4a68-a449-0a7ec5799f2f",
     "category": "History",
     "difficulty": "Medium",
-    "question": "List the 12 US presidents, as of 2012, with surnames 5 letters long or shorter",
+    "question": "List the 14 US presidents, as of 2012, with surnames 5 letters long or shorter",
     "answers": [
       "John Adams",
       "John Quincy Adams",
@@ -3265,7 +3268,9 @@
       "Barrack Obama",
       "James Polk",
       "William Taft",
-      "John Tyler"
+      "John Tyler",
+      "Joe Biden",
+      "Donald Trump"
     ],
     "source": "Original Yola Game",
     "tags": []
@@ -3896,7 +3901,7 @@
     "id": "39446103-b7e9-4cba-85fc-102dcae38b3e",
     "category": "General",
     "difficulty": "Medium",
-    "question": "List the 8 planets and 5 dwarf planets in the Solar System according to the International Astronomical Union (IAU) as of 2012",
+    "question": "List the 8 planets and 7 largest dwarf planets in the Solar System",
     "answers": [
       "Earth",
       "Jupiter",
@@ -3906,13 +3911,15 @@
       "Saturn",
       "Uranus",
       "Venus",
-      "Ceres",
       "Eris",
       "Haumea",
       "Makemake",
-      "Pluto"
+      "Pluto",
+      "Gonggong",
+      "Quaoar",
+      "Sedna"
     ],
-    "source": "http://en.wikipedia.org/wiki/Planet",
+    "source": "CoPilot",
     "tags": []
   },
   {
@@ -6695,6 +6702,267 @@
       "Uncle Joe"
     ],
     "source": "https://www.imdb.com/title/tt0058808/fullcredits/?ref_=tt_ov_ql_1",
+    "tags": []
+  },
+  {
+    "id": "ab55f251-0d68-4ad0-9c96-dd0e79b2fb2e",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 20 largest bones in the human body",
+    "answers": [
+      "Calcaneus (heel bone)",
+      "Clavicle (collarbone)",
+      "Femur (thigh bone)",
+      "Fibula",
+      "Frontal Bone",
+      "Humerus (upper arm bone)",
+      "Mandible (jawbone)",
+      "Maxilla",
+      "Occipital Bone",
+      "Parietal Bone",
+      "Patella (kneecap)",
+      "Pelvis (hip bone)",
+      "Radius",
+      "Sacrum",
+      "Scapula (shoulder blade)",
+      "Sternum (breastbone)",
+      "Talus",
+      "Temporal Bone",
+      "Tibia (shin bone)",
+      "Ulna"
+    ],
+    "source": "ChatGPT",
+    "tags": []
+  },
+  {
+    "id": "f31cbedb-d75b-4069-a671-07ff17351ddd",
+    "category": "General",
+    "difficulty": "Difficult",
+    "question": "List the 12 geological time periods of the Phanerozoic Eon",
+    "answers": [
+      "Cambrian",
+      "Carboniferous",
+      "Cretaceous",
+      "Devonian",
+      "Jurassic",
+      "Neogene",
+      "Ordovician",
+      "Paleogene",
+      "Permian",
+      "Quaternary",
+      "Silurian",
+      "Triassic"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "ff16244c-e17f-44a2-b9b7-fb8a5136fe45",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 9 major types of sedimentary rocks",
+    "answers": [
+      "Breccia",
+      "Chalk",
+      "Coal",
+      "Conglomerate",
+      "Limestone",
+      "Mudstone",
+      "Sandstone",
+      "Shale",
+      "Siltstone"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "c5ae87c6-33b7-4fff-8442-9854d6cf7bec",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 15 most abundant elements in the Earth’s crust",
+    "answers": [
+      "Aluminum",
+      "Barium",
+      "Calcium",
+      "Fluorine",
+      "Hydrogen",
+      "Iron",
+      "Magnesium",
+      "Manganese",
+      "Oxygen",
+      "Phosphorus",
+      "Potassium",
+      "Silicon",
+      "Sodium",
+      "Strontium",
+      "Titanium"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "f9f53cfb-bd28-4eb9-8548-2f448c59cb0b",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 15 elements essential for human life",
+    "answers": [
+      "Calcium",
+      "Carbon",
+      "Chlorine",
+      "Copper",
+      "Hydrogen",
+      "Iodine",
+      "Iron",
+      "Magnesium",
+      "Nitrogen",
+      "Oxygen",
+      "Phosphorus",
+      "Potassium",
+      "Sodium",
+      "Sulfur",
+      "Zinc"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "06ec55d0-bf7f-45dd-aa6d-3601f6d63488",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 10 forms of energy recognized in physics",
+    "answers": [
+      "Chemical",
+      "Elastic",
+      "Electrical",
+      "Kinetic",
+      "Magnetic",
+      "Nuclear",
+      "Potential",
+      "Radiant (light)",
+      "Sound",
+      "Thermal"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "2e1dd8ba-ed7c-4df3-802f-e3b8cdb134d6",
+    "category": "General",
+    "difficulty": "Difficult",
+    "question": "List the 8 major types of electromagnetic radiation",
+    "answers": [
+      "Cosmic rays (technically particles but often included)",
+      "Gamma rays",
+      "Infrared",
+      "Micorwaves",
+      "Radio waves",
+      "Ultraviolet",
+      "Visible light",
+      "X-Rays"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "ab5602e3-ac9c-4ec5-b84d-fe5c99b33b42",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 10 classical simple machines and mechanical components",
+    "answers": [
+      "Cam",
+      "Crank",
+      "Gear",
+      "Inclined plane",
+      "Lever",
+      "Pulley",
+      "Screw",
+      "Spring",
+      "Wedge",
+      "Wheel (and axle)"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "6d93a6e5-d8eb-4077-ad24-0f1f5289724e",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 10 types of quadrilaterals",
+    "answers": [
+      "Deltoid",
+      "Irregular quadrilateral",
+      "Isosceles trapezoid",
+      "Kite",
+      "Parallelogram",
+      "Quadrilateral (general)",
+      "Rectangle",
+      "Rhombus",
+      "Square",
+      "Trapezoid"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "fd61adec-28e1-4ca8-8793-4739319f442e",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 9 major branches of mathematics",
+    "answers": [
+      "Algebra",
+      "Calculus",
+      "Discrete mathematics",
+      "Geometry",
+      "Logic",
+      "Number Theory",
+      "Probability",
+      "Statistics",
+      "Topology"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "cf312289-bdcc-44c0-82ef-9b8f1a4df839",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 10 major organ systems of the human body",
+    "answers": [
+      "Circulatory",
+      "Digestive",
+      "Endocrine",
+      "Immune",
+      "Integumentary",
+      "Muscular",
+      "Nervous",
+      "Reproductive",
+      "Respiratory",
+      "Skeletal"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "22c36793-f594-41e1-8798-f2d11f38d610",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 13 vitamins essential for humans",
+    "answers": [
+      "Vitamin A",
+      "Vitamin B1 (thiamine)",
+      "Vitamin B12(cobalamin)",
+      "Vitamin B2 (riboflavin)",
+      "Vitamin B3 (niacin)",
+      "Vitamin B5 (pantothenic acid)",
+      "Vitamin B6 (pyridoxine)",
+      "Vitamin B7 (biotin)",
+      "Vitamin B9 (folate)",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "source": "CoPilot",
     "tags": []
   }
 ]
