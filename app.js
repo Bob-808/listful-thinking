@@ -20,10 +20,16 @@ async function loadQuestions() {
     questions = await res.json();
 
     console.log("Loaded:", questions.length);
-	showModal("Welcome", "Game is starting!");
-	window.onload = function () {
-	  showModal("Welcome", "Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Release: " + Release, "WELCOME");
-	};
+	//showModal("Welcome", "Game is starting!");
+
+	showModal(
+	  "Welcome",
+	  "Welcome to the greatest game ever created by man or machine!!! " +
+	  questions.length +
+	  " questions not for the faint of heart. Release: " +
+	  Release
+	);
+
   } catch (e) {
     alert("Failed to load questions!");
     console.error(e);
@@ -235,8 +241,11 @@ function closeModal() {
 }
 
 // preload
-loadQuestions();
+window.onload = function () {
+  loadQuestions();
+};
 
+renderPlayersSetup(); // optional
 //questions = [
 //  {
 //    question: "List the 3 primary colours",
@@ -247,8 +256,8 @@ loadQuestions();
 //    answers: ["John", "Paul", "George", "Ringo"]
 //  }
   
+//showModal("Test", "This should appear immediately");
 
 
-];
 
-renderPlayersSetup(); // optional
+
