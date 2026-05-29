@@ -70,6 +70,49 @@
   color: #888;
 }
 
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#modal.active {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-box {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 350px;
+  text-align: center;
+  animation: popup 0.25s ease;
+}
+
+@keyframes popup {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.modal-box h2 {
+  margin-bottom: 10px;
+}
+
+.modal-box button {
+  margin-top: 15px;
+}
 </style>
 </head>
 
@@ -100,6 +143,14 @@
   <div id="answers"></div>
 
   <button onclick="nextQuestion()">Next Question</button>
+</div>
+
+<div id="modal" class="hidden">
+  <div class="modal-box">
+    <h2 id="modalTitle"></h2>
+    <p id="modalMessage"></p>
+    <button onclick="closeModal()">OK</button>
+  </div>
 </div>
 
 </div>

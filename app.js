@@ -6,7 +6,7 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
-let Release = 1.3;
+let Release = 1.4;
 
 // Load JSON
 async function oldloadQuestions() {
@@ -20,7 +20,10 @@ async function loadQuestions() {
     questions = await res.json();
 
     console.log("Loaded:", questions.length);
-	alert("Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Release: " + Release, "WELCOME");
+	showModal("Welcome", "Game is starting!");
+	window.onload = function () {
+	  showModal("Welcome", "Welcome to the greatest game ever created by man or machine!!! " + questions.length + " questions not for the faint of heart. Release: " + Release, "WELCOME");
+	};
   } catch (e) {
     alert("Failed to load questions!");
     console.error(e);
@@ -221,18 +224,31 @@ function checkEnd() {
   }
 }
 
+function showModal(title, message) {
+  document.getElementById("modalTitle").textContent = title;
+  document.getElementById("modalMessage").textContent = message;
+  document.getElementById("modal").classList.add("active");
+}
+
+function closeModal() {
+  document.getElementById("modal").classList.remove("active");
+}
+
 // preload
 loadQuestions();
 
 //questions = [
 //  {
 //    question: "List the 3 primary colours",
-//    answers: ["Red", "Blue", "Yellow"]
+//   answers: ["Red", "Blue", "Yellow"]
 //  },
 //  {
 //    question: "List the 4 Beatles",
 //    answers: ["John", "Paul", "George", "Ringo"]
 //  }
-//];
+  
+
+
+];
 
 renderPlayersSetup(); // optional
