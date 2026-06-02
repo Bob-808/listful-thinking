@@ -7458,7 +7458,7 @@
     "id": "af5b27f5-ab6d-4ba9-adc9-6a975af7f896",
     "category": "Movies",
     "difficulty": "Medium",
-    "question": "List the 22 speaking cast of characters from My Cousin Vinnie ",
+    "question": "List the 24 speaking cast of characters from My Cousin Vinnie ",
     "answers": [
       "Vincent LaGuardia 'Vinnie' Gambini",
       "Mona Lisa Vito",
@@ -7481,7 +7481,9 @@
       "J.T. (pool hustler)",
       "Lisa's friend at the bar",
       "Man in the bar who insults Vinny",
-      "Store Clerk (Sack O' Suds)"
+      "Store Clerk (Sack O' Suds)",
+      "Man in Town Square ('famous for our mud')",
+      "Female Juror ('That's Right')"
     ],
     "source": "CoPilot",
     "tags": []
@@ -8043,6 +8045,160 @@
       "Wands"
     ],
     "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "27bc4022-b445-4a5c-9a71-0ed0129ccd85",
+    "category": "History",
+    "difficulty": "Medium",
+    "question": "List the 9 muses of Greek mythology and what they represented",
+    "answers": [
+      "Calliope (epic poetry)",
+      "Clio (history)",
+      "Erato (love poetry)",
+      "Euterpe (music)",
+      "Melpomene (tragedy)",
+      "Polyhymnia (sacred poetry)",
+      "Terpsichore (dance)",
+      "Thalia (comedy)",
+      "Urania (astronomy)"
+    ],
+    "source": "www.infoplease.com/ipa/A0881991.html",
+    "tags": []
+  },
+  {
+    "id": "35344109-f95c-4717-979b-0d41110a1f9b",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the product associated with the first 15 wedding anniversaries.",
+    "answers": [
+      "bronze/pottery",
+      "cotton",
+      "crystal",
+      "fruit/flowers",
+      "ivory",
+      "lace",
+      "leather",
+      "paper",
+      "pottery/willow",
+      "silk/linen",
+      "steel",
+      "sugar/candy",
+      "tin",
+      "wood",
+      "wool/copper"
+    ],
+    "source": "Super Trivia Encyclopedia",
+    "tags": []
+  },
+  {
+    "id": "0e6c15bb-d942-42b5-9f0e-d142cc0e47cb",
+    "category": "History",
+    "difficulty": "Medium",
+    "question": "List the original 13 United States",
+    "answers": [
+      "Connecticut",
+      "Delaware",
+      "Georgia",
+      "Maryland",
+      "Massachusetts",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "North Carolina",
+      "Pennsylvania",
+      "Rhode Island",
+      "South Carolina",
+      "Virginia"
+    ],
+    "source": "Answers",
+    "tags": []
+  },
+  {
+    "id": "48ed6c65-1492-4762-acd4-478e3c153fff",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 14 ingredients of a Zombie (according to visitaruba.com)",
+    "answers": [
+      "151-proof Rum",
+      "Apricot Brandy",
+      "Crushed Ice",
+      "Dark Rum",
+      "Light Rum",
+      "Lime Juice",
+      "Maraschino Cherry",
+      "Passion Fruit Juice",
+      "Pineapple Juice",
+      "Slice of Orange",
+      "Slice of Pineapple",
+      "Sugar",
+      "Optional: Grenadine",
+      "Optional: Pernod"
+    ],
+    "source": "visitaruba.com",
+    "tags": []
+  },
+  {
+    "id": "0963015e-7fb3-46a5-967d-706d8f354492",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List 12 the features on the Victorinox Standard Modell Spartan Swiss Army knife",
+    "answers": [
+      "Can Opener",
+      "Cap Lifter (Bottle Opener)",
+      "Corkscrew",
+      "Key Ring",
+      "Large Blade",
+      "Reamer/Punch",
+      "Screwdriver",
+      "Small (Philips) Screwdriver",
+      "Small Blade",
+      "Toothpick",
+      "Tweezers",
+      "Wire Stripper"
+    ],
+    "source": "www.victorinox.com/newsite/en/produkte/",
+    "tags": []
+  },
+  {
+    "id": "0055a873-2c55-43e3-ac81-532701fb874d",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the hierarchy of angels (9)",
+    "answers": [
+      "Angels",
+      "Archangels",
+      "Cherubim",
+      "Dominations or Dominions",
+      "Powers",
+      "Principalities",
+      "Seraphim",
+      "Thrones",
+      "Virtues"
+    ],
+    "source": "The Super Trivia Encyclopedia",
+    "tags": []
+  },
+  {
+    "id": "c0bb059e-e31f-4289-97e2-9e389ec00655",
+    "category": "History",
+    "difficulty": "Medium",
+    "question": "List the 12 Apollo astronauts who walked on the moon surface",
+    "answers": [
+      "Neil Armstrong (Apollo 11)",
+      "Edwin 'Buzz' Aldrin (Apollo 11)",
+      "Alan Bean (Apollo 12)",
+      "Charles 'Pete' Conrad (Apollo 12)",
+      "Edgar Mitchell (Apollo 14)",
+      "Alan Shepard (Apollo 14)",
+      "James Irwin (Apollo 15)",
+      "David Scott (Apollo 15)",
+      "Charles Duke (Apollo 16)",
+      "John Young (Apollo 16)",
+      "Harrison Schmitt (Apollo 17)",
+      "Eugene Cernan (Apollo 17)"
+    ],
+    "source": "http://www.answers.com/topic/list-of-lunar-astronauts",
     "tags": []
   }
 ]
