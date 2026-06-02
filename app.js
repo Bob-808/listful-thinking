@@ -6,7 +6,7 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
-let Release = 1.07;
+let Release = 1.08;
 let DEV_MODE = false;
 
 // Load JSON
