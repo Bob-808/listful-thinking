@@ -864,24 +864,20 @@
   },
   {
     "id": "ccbebdc2-d43d-476d-968a-72b65806dea7",
-    "category": "Geography",
+    "category": "Music",
     "difficulty": "Medium",
-    "question": "List the 12 most common spoken native languages in the world as of 2004",
+    "question": "List the 8 gifts requested in 'Santa Baby' as sung by Earth Kitt",
     "answers": [
-      "Arabic",
-      "Bengali",
-      "Chinese (Mandarin)",
-      "English",
-      "German",
-      "Hindu",
-      "Japanese",
-      "Korean",
-      "Malay-Indonesian",
-      "Portuguese",
-      "Russian",
-      "Spanish"
+      "54 convertible",
+      "Checks",
+      "Deed to a platinum mine",
+      "Duplex",
+      "Ring",
+      "Sable",
+      "Tiffany decorations",
+      "Yacht"
     ],
-    "source": "Original Yola Game",
+    "source": "Google lyrics search",
     "tags": []
   },
   {
@@ -8782,11 +8778,27 @@
   },
   {
     "id": "1735b649-0c2b-4594-b0db-0d2a0837cf27",
-    "category": "",
+    "category": "Movies",
     "difficulty": "Medium",
-    "question": "New Question",
-    "answers": [],
-    "source": "",
+    "question": "List the 15 songs in the movie 'Singin' in the Rain' (1952)",
+    "answers": [
+      "Singin’ in the Rain",
+      "Make ’Em Laugh",
+      "You Were Meant for Me",
+      "All I Do Is Dream of You",
+      "Fit as a Fiddle (And Ready for Love)",
+      "Moses Supposes",
+      "Good Morning",
+      "You Are My Lucky Star",
+      "Beautiful Girl",
+      "I’ve Got a Feelin’ You’re Foolin’",
+      "The Wedding of the Painted Doll",
+      "Should I?",
+      "Temptation",
+      "Would You?",
+      "Broadway Melody Ballet (includes “Broadway Rhythm”)"
+    ],
+    "source": "CoPilot",
     "tags": []
   },
   {
@@ -8894,6 +8906,134 @@
       "Yttrium (Y)"
     ],
     "source": "http://periodic.lanl.gov/default.htm",
+    "tags": []
+  },
+  {
+    "id": "8258e7f6-ec85-4bb1-8cca-00fb449b4a8f",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 9 ingredients in a Long Island Iced Tea according to www.drinksmixer.com",
+    "answers": [
+      "Coca-Cola",
+      "Gin",
+      "Ice",
+      "Lemon",
+      "Rum",
+      "Sweet and Sour Mix",
+      "Tequila",
+      "Triple Sec",
+      "Vodk"
+    ],
+    "source": "http://www.drinksmixer.com/drink590.html",
+    "tags": []
+  },
+  {
+    "id": "f4e48c47-022a-45c2-a56c-b6a58a18280b",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 11 ingredients in a Genuine Singapore Sling according to www.drinksmixer.com",
+    "answers": [
+      "Angostura bitters",
+      "Benedictine Herbal Liquer",
+      "Cherry",
+      "Cherry Brandy",
+      "Cointreau Orange Liquer",
+      "Gina",
+      "Grenadine",
+      "Ice",
+      "Lime Juice",
+      "Pineapple Juice",
+      "Pineapple Slice"
+    ],
+    "source": "http://www.drinksmixer.com/drink3758.html",
+    "tags": []
+  },
+  {
+    "id": "4abb2cbb-0123-4281-acac-6404df549b1a",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 9 time zones that pass through Canada and the USA",
+    "answers": [
+      "Alaskan Standard Time",
+      "Atlantic Time",
+      "Central Time",
+      "Eastern Time",
+      "Hawaii-Aleutian Standard Time",
+      "Mountain Time",
+      "Newfoundland Time",
+      "Pacific Time",
+      "Samoa Standard Time"
+    ],
+    "source": "http://www.timetemperature.com/tzus/time_zone.shtml",
+    "tags": []
+  },
+  {
+    "id": "64de734d-0dc1-488c-abc9-f1ad5d3d5023",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "List the 8 common parts of speech in the English language",
+    "answers": [
+      "Adjectives",
+      "Adverbs",
+      "Conjunctions",
+      "Interjections",
+      "Nouns",
+      "Prepositions",
+      "Pronouns",
+      "Verbs"
+    ],
+    "source": "http://depts.gallaudet.edu/englishworks/grammar/partsofspeech.html",
+    "tags": []
+  },
+  {
+    "id": "4c93b42a-ef83-4557-bdac-918ec341b8b0",
+    "category": "Geography",
+    "difficulty": "Medium",
+    "question": "List the 20 most commonly spoken native languages in the world ",
+    "answers": [
+      "English (≈1.49B)",
+      "Mandarin Chinese (≈1.18B)",
+      "Hindi (≈611M)",
+      "Spanish (≈559M)",
+      "French (≈334M)",
+      "Modern Standard Arabic (≈335M)",
+      "Bengali (≈274M)",
+      "Portuguese (≈269M)",
+      "Indonesian (≈255M)",
+      "Urdu (≈232M)",
+      "Russian (≈255M)",
+      "German (≈133M)",
+      "Japanese (≈123M)",
+      "Nigerian Pidgin (≈120M)",
+      "Egyptian Arabic (≈102M)",
+      "Marathi (≈99M)",
+      "Telugu (≈96M)",
+      "Turkish (≈90M)",
+      "Tamil (≈86.6M)",
+      "Cantonese (≈86.6M)"
+    ],
+    "source": "CoPilot",
+    "tags": []
+  },
+  {
+    "id": "3f856a66-e438-44d2-8f91-a9aa4e74d84e",
+    "category": "Movies",
+    "difficulty": "Medium",
+    "question": "List the 11 ingredients of an Alaskan Polar Bear Heater according to 'Buddy Love' in the Jerry Lewis version of The Nutty Professor",
+    "answers": [
+      "Bitters",
+      "Brandy",
+      "Cherry",
+      "Gin",
+      "Lemon Peel",
+      "Orange Peel",
+      "Rum",
+      "Scotch",
+      "Vermouth",
+      "Vinegar",
+      "Vodka"
+    ],
+    "source": "taken from film",
     "tags": []
   }
 ]
