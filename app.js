@@ -20,9 +20,9 @@ async function loadQuestions() {
 
     showModal(
       "Welcome",
-      "Welcome to Listful Thinking! " +
+      "Welcome to the greatest game ever created by man or machine!!! " +
       questions.length +
-      " questions loaded. Release: " +
+      " questions not for the faint of heart. Release: " +
       Release
     );
 
