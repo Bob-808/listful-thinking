@@ -29,16 +29,25 @@
 
   <!-- GAME SCREEN -->
   <div id="game" class="screen" style="display:none;">
+
     <div class="game-header">
       <div id="currentPlayer" class="current-player"></div>
     </div>
 
     <div class="card">
+
+      <div id="categoryLabel" class="category-label"></div>
+
       <div id="question" class="question"></div>
 
       <div id="answers" class="answers"></div>
 
-      <div id="players" class="players"></div>
+      <!-- SCOREBOARD + WRONG BUTTON -->
+      <div class="score-and-wrong">
+        <div id="scoreboard" class="scoreboard"></div>
+        <button class="btn danger wrong-btn" onclick="markWrong()">Wrong Answer</button>
+      </div>
+
     </div>
   </div>
 

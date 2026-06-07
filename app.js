@@ -6,30 +6,25 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
-let Release = 1.13;
+let Release = 1.2;
 let DEV_MODE = false;
 
-// Load JSON
-async function oldloadQuestions() {
-  const res = await fetch("questions.json");
-  questions = await res.json();
-}
+let scores = {};
+let answerFinders = {};
 
+// Load JSON
 async function loadQuestions() {
   try {
     const res = await fetch("questions.json");
     questions = await res.json();
 
-    console.log("Loaded:", questions.length);
-	//showModal("Welcome", "Game is starting!");
-
-	showModal(
-	  "Welcome",
-	  "Welcome to the greatest game ever created by man or machine!!! " +
-	  questions.length +
-	  " questions not for the faint of heart. Release: " +
-	  Release
-	);
+    showModal(
+      "Welcome",
+      "Welcome to Listful Thinking! " +
+      questions.length +
+      " questions loaded. Release: " +
+      Release
+    );
 
   } catch (e) {
     showModal("Error Loading!", "Failed to load questions!");
@@ -59,7 +54,11 @@ function startGame() {
     return;
   }
 
-  // ✅ Copy and shuffle questions
+  // Initialize scores
+  scores = {};
+  players.forEach(p => scores[p] = 0);
+
+  // Shuffle questions
   shuffledQuestions = [...questions];
   shuffleArray(shuffledQuestions);
 
@@ -72,35 +71,34 @@ function startGame() {
 }
 
 function nextQuestion() {
-  // ✅ If we've reached the end → reshuffle
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  // If we've reached the end → reshuffle
   if (currentQuestionIndex >= shuffledQuestions.length) {
     shuffleArray(shuffledQuestions);
     currentQuestionIndex = 0;
-
     showModal("New Cycle", "Reshuffling questions...");
   }
-  window.scrollTo({ top: 0, behavior: "smooth" });
+
   currentQuestion = shuffledQuestions[currentQuestionIndex];
   currentQuestionIndex++;
 
+  // Preserve turn order across rounds
+  const nextStart = (currentPlayerIndex + 1) % players.length;
+
   activePlayers = [...players];
-  currentPlayerIndex = 0;
+  currentPlayerIndex = nextStart;
+
   foundAnswers = [];
+  answerFinders = {};
 
   document.getElementById("question").textContent = currentQuestion.question;
+  document.getElementById("categoryLabel").textContent =
+    currentQuestion.category || "";
 
-  renderPlayers();
   renderAnswers();
+  renderScoreboard();
   updateTurn();
-}
-
-function renderPlayers() {
-  const container = document.getElementById("players");
-
-  container.innerHTML = activePlayers.map((p, i) => {
-    const active = i === currentPlayerIndex ? "border:2px solid yellow;" : "";
-    return `<div class="player" style="${active}">${p}</div>`;
-  }).join("");
 }
 
 function renderAnswers() {
@@ -119,7 +117,6 @@ function renderAnswers() {
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
@@ -131,34 +128,57 @@ function escapeQuotes(str) {
 function markAnswer(answer, element) {
   const index = foundAnswers.indexOf(answer);
 
+  // Undo
   if (index > -1) {
-    // ✅ Already marked → UNDO it
     foundAnswers.splice(index, 1);
     element.classList.remove("found");
-  } else {
-    // ✅ Not marked → mark it
-    foundAnswers.push(answer);
-    element.classList.add("found");
+
+    const lastFinder = answerFinders[answer];
+    if (lastFinder) {
+      scores[lastFinder] -= 1;
+      delete answerFinders[answer];
+      renderScoreboard();
+    }
+
+    return;
   }
 
+  // Mark new answer
+  foundAnswers.push(answer);
+  element.classList.add("found");
+
+  const currentPlayer = activePlayers[currentPlayerIndex];
+  scores[currentPlayer] += 1;
+  answerFinders[answer] = currentPlayer;
+
+  renderScoreboard();
+
+  nextTurn();
   checkEnd();
 }
 
 function markWrong() {
   const outPlayer = activePlayers[currentPlayerIndex];
-  showModal("Elimination", outPlayer + " is out!");
+
+  showModal("Wrong Answer", outPlayer + " is out for this round!");
 
   activePlayers.splice(currentPlayerIndex, 1);
+
+  if (activePlayers.length === 0) {
+    checkEnd();
+    return;
+  }
 
   if (currentPlayerIndex >= activePlayers.length) {
     currentPlayerIndex = 0;
   }
 
-  checkEnd();
   updateTurn();
 }
 
 function nextTurn() {
+  if (activePlayers.length === 0) return;
+
   currentPlayerIndex++;
 
   if (currentPlayerIndex >= activePlayers.length) {
@@ -174,26 +194,34 @@ function updateTurn() {
   document.getElementById("currentPlayer").textContent =
     "Current: " + activePlayers[currentPlayerIndex];
 
-  renderPlayers();
+  renderScoreboard();
+}
+
+function renderScoreboard() {
+  const board = document.getElementById("scoreboard");
+
+  board.innerHTML = players
+    .map(p => {
+      const isActive = activePlayers[currentPlayerIndex] === p;
+      return `
+        <div class="score-item" style="${isActive ? "border-color: var(--accent);" : ""}">
+          <span class="name">${p}</span>
+          <span class="points">${scores[p]}</span>
+        </div>
+      `;
+    })
+    .join("");
 }
 
 function checkEnd() {
-  // ✅ All answers found → move to next question
   if (foundAnswers.length === currentQuestion.answers.length) {
-    showModal("Round Complete", players[currentPlayerIndex] + " found the last answer!");
-
-    setTimeout(() => {
-      nextQuestion();
-    }, 800); // short delay so player sees message
+    showModal("Round Complete", "All answers found!");
+    setTimeout(() => nextQuestion(), 800);
   }
 
-  // ✅ All players eliminated → also go to next question
   if (activePlayers.length === 0) {
     showModal("Round Over", "No players left!");
-
-    setTimeout(() => {
-      nextQuestion();
-    }, 800);
+    setTimeout(() => nextQuestion(), 800);
   }
 }
 
@@ -210,30 +238,23 @@ function closeModal() {
 // preload
 window.onload = function () {
   if (DEV_MODE) {
-    // ✅ Local test questions
     questions = [
       {
         question: "List the 3 primary colours",
-        answers: ["Red", "Blue", "Yellow"]
+        answers: ["Red", "Blue", "Yellow"],
+        category: "Art"
       },
       {
         question: "List the 4 Beatles",
-        answers: ["John", "Paul", "George", "Ringo"]
+        answers: ["John", "Paul", "George", "Ringo"],
+        category: "Music"
       }
     ];
 
-    showModal(
-      "DEV MODE",
-      "Using local test data (" + questions.length + " questions)"
-    );
-
+    showModal("DEV MODE", "Using local test data (" + questions.length + " questions)");
   } else {
-    // ✅ Load from JSON (GitHub / production)
     loadQuestions();
   }
 
   renderPlayersSetup();
 };
-
-
-

@@ -94,17 +94,18 @@ input {
   background: var(--accent-hover);
 }
 
+.btn.danger {
+  background: #cc4444;
+  color: white;
+}
+
+.btn.danger:hover {
+  background: #dd5555;
+}
+
 .start-btn {
   width: 100%;
   margin-top: 10px;
-}
-
-/* ------------------------------
-   PLAYER LIST
------------------------------- */
-.player-list div {
-  padding: 6px 0;
-  border-bottom: 1px solid #333;
 }
 
 /* ------------------------------
@@ -115,6 +116,20 @@ input {
   margin-bottom: 12px;
   font-size: 1.1rem;
   color: var(--muted);
+}
+
+.current-player {
+  font-size: 1.2rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.category-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .question {
@@ -150,53 +165,81 @@ input {
 }
 
 /* ------------------------------
-   PLAYERS
+   SCOREBOARD + WRONG BUTTON
 ------------------------------ */
-.players {
+.score-and-wrong {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.scoreboard {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 20px;
+  gap: 10px;
 }
 
-.player {
-  padding: 6px 12px;
+.score-item {
   background: #111;
-  border-radius: 999px;
   border: 1px solid #333;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
 }
 
-.player[style*="yellow"] {
-  border-color: var(--accent) !important;
+.score-item .name {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.score-item .points {
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* ------------------------------
-   MODAL
+   MODAL (Animated Minimal Dark)
 ------------------------------ */
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.65);
-  display: none;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
   justify-content: center;
   align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
 }
 
 .modal.active {
-  display: flex;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal-content {
   background: var(--card-bg);
-  padding: 24px;
+  padding: 26px;
   border-radius: var(--radius);
   width: 90%;
-  max-width: 400px;
+  max-width: 420px;
   text-align: center;
   box-shadow: var(--shadow);
   border: 1px solid #333;
+
+  transform: scale(0.95);
+  opacity: 0;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.modal.active .modal-content {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .modal-btn {
-  margin-top: 16px;
+  margin-top: 10px;
 }
