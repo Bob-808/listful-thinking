@@ -1,160 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Listful Thinking</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #111;
-    color: white;
-    text-align: center;
-  }
-
-  h1, h2, h3 {
-    margin: 10px;
-  }
-
-  #app {
-    padding: 10px;
-  }
-
-  button {
-    padding: 12px;
-    margin: 5px;
-    font-size: 16px;
-    width: 90%;
-    max-width: 400px;
-  }
-
-  input {
-    padding: 10px;
-    width: 80%;
-    margin: 5px;
-    font-size: 16px;
-  }
-
-  .player {
-    padding: 10px;
-    background: #333;
-    margin: 5px;
-    border-radius: 5px;
-  }
-
-  .out {
-    background: #900;
-    text-decoration: line-through;
-  }
-
-  #answers {
-    margin-top: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  .answer {
-    background: #222;
-    padding: 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-
-.found {
-  text-decoration: line-through;
-  background: #444;
-  color: #888;
-}
-
-#modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-#modal.active {
-  display: flex;
-}
-
-.hidden {
-  display: none;
-}
-
-.modal-box {
-  background: #222;
-  padding: 20px;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 350px;
-  text-align: center;
-  animation: popup 0.25s ease;
-}
-
-@keyframes popup {
-  from { transform: scale(0.8); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
-.modal-box h2 {
-  margin-bottom: 10px;
-}
-
-.modal-box button {
-  margin-top: 15px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listful Thinking</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div id="app">
 
-<h1>Listful Thinking</h1>
+  <!-- SETUP SCREEN -->
+  <div id="setup" class="screen">
+    <h1 class="title">Listful Thinking</h1>
 
-<div id="setup">
-  <h2>Add Players</h2>
-  <input id="playerInput" placeholder="Enter player name">
-  <button onclick="addPlayer()">Add Player</button>
-  <div id="playerList"></div>
-  <button onclick="startGame()">Start Game</button>
-</div>
+    <div class="card">
+      <h2 class="section-title">Add Players</h2>
 
-<div id="game" style="display:none;">
-  <h2 id="question"></h2>
+      <div class="player-input-row">
+        <input id="playerInput" type="text" placeholder="Player name">
+        <button onclick="addPlayer()" class="btn primary">Add</button>
+      </div>
 
-  <h3 id="currentPlayer"></h3>
+      <div id="playerList" class="player-list"></div>
 
-  <button onclick="markWrong()">Wrong Answer ❌</button>
-  <button onclick="nextTurn()">Skip ➡️</button>
-
-  <div id="players"></div>
-
-  <h3>Tap answers as they are guessed:</h3>
-  <div id="answers"></div>
-
-  <button onclick="nextQuestion()">Next Question</button>
-</div>
-
-<div id="modal" class="hidden">
-  <div class="modal-box">
-    <h2 id="modalTitle"></h2>
-    <p id="modalMessage"></p>
-    <button onclick="closeModal()">OK</button>
+      <button onclick="startGame()" class="btn start-btn">Start Game</button>
+    </div>
   </div>
-</div>
 
-</div>
+  <!-- GAME SCREEN -->
+  <div id="game" class="screen" style="display:none;">
+    <div class="game-header">
+      <div id="currentPlayer" class="current-player"></div>
+    </div>
 
-<script src="app.js"></script>
+    <div class="card">
+      <div id="question" class="question"></div>
+
+      <div id="answers" class="answers"></div>
+
+      <div id="players" class="players"></div>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2 id="modalTitle"></h2>
+      <p id="modalMessage"></p>
+      <button onclick="closeModal()" class="btn primary modal-btn">OK</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
