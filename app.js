@@ -79,7 +79,7 @@ function nextQuestion() {
 
     showModal("New Cycle", "Reshuffling questions...");
   }
-
+  window.scrollTo({ top: 0, behavior: "smooth" });
   currentQuestion = shuffledQuestions[currentQuestionIndex];
   currentQuestionIndex++;
 
