@@ -6,7 +6,7 @@ let currentQuestion = null;
 let foundAnswers = [];
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
-let Release = 1.2;
+let Release = 1.3;
 let DEV_MODE = false;
 
 let scores = {};
