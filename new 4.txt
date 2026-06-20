@@ -44,6 +44,8 @@ A Fish Called Wanda
 The Mysterious Island 
 Radio Days
 One Flew Over the Cuckoo's Nest
+Lilies of the Field
+In the Heat of the Night
 
 01. Robin Hood - steals from the rich to help the poor
 02. Zorro - masked vigilante defending the oppressed 
@@ -170,3 +172,89 @@ Canada (2026)
 18. George Mikan (NBA)
 19. Tacko Fall (NBA)
 20. Jae Crowder (NBA)
+
+01. Heracles - Greatest Greek hero
+02. Achilles - unmatched warrior.
+03. Odysseus - hero of the Odyssey.
+04. Perseus - Slayer of Medusa
+05. Theseus - Slayer of the Minotaur
+06. Jason - Leader of the Argonauts
+07. Atalanta - Swift huntress
+08. Bellerophon - slayer of the Chimera.
+09. Orpheus - journeyed to the underworld.
+10. Cadmus - dragon slayer.
+11. Oedipus - Solver of the Sphinx's riddle
+12. Diomedes - Fierce warrior in the Iliad
+13. Ajax the Great - Mighty warrior
+14. Hector - Trojan prince
+15. Aeneas - Trojan hero
+16. Meleager - Leader of the Calydonian Boar Hunt.
+17. Castor - horseman hero.
+18. Pollux - boxer hero.
+19. Philoctetes - key to Troy's fall.
+20. Peleus - Argonaut and hero
+
+01. Medusa - Gorgon - turned victims to stone
+02. Minotaur - Half man, half bull
+03. Cerberus - Three headed hound
+04. Hydra - Multi headed serpent
+05. Chimera - Fire breather
+06. Cyclops - One eyed giants
+07. Scylla - Sea monster with multiple heads
+08. Charybdis - Giant whirlpool creature
+09. Sphinx - Riddle giving monster
+10. Harpies - Winged women - tormenters
+11. Sirens - Creatures whose songs lured sailors to death
+12. Typhon - giant storm creature
+13. Echidna - Mother of monsters
+14. Geryon - Three bodied giant
+15. Nemean Lion - Invulnerable lion
+16. Stymphalian Birds - Man eating birds with metal feathers
+17. Talos - Giant bronze automaton guarding Crete
+18. Lamia - Child devouring demon woman
+19. Empusa - Shape shifting vampiric creature
+20. Python - Giant serpent
+
+01. Oedipus - killed his father; married his mother
+02. Antigone - Buried her brother against the law
+03. Cassandra - Gifted with prophecy that no one believed
+04. Medea - killed her children in vengeance
+05. Iphigenia - Sacrificed by her father
+06. Agamemnon - Murdered by his wife
+07. Clytemnestra - Killed her husband
+08. Orestes - pursued by Furies
+09. Pentheus - Torn apart by his mother
+10. Niobe - Lost all her children after boasting
+11. Orpheus - Lost Eurydice twice
+12. Eurydice - lost when Orpheus looked back
+13. Ajax the Great - died by suicide
+14. Bellerophon - fell trying to reach Olympus
+15. Hippolytus - Destroyed by a false accusation
+16. Phaedra - Consumed by forbidden love
+17. Tantalus - served his son as food to the gods
+18. Prometheus - Tortured for giving fire to humanity
+19. Pandora - Opened the box (actually, a jar) of suffering
+20. Arachne turned into a spider
+
+01. Orpheus (Greek)
+02. Lot's Wife (Hebrew)
+03. Psyche (Greek)
+04. Actaeon (Greek)
+05. Semele (Greek)
+06. Tiresias (Greek)
+07. Izanagi (Japanese)
+08. Pandora (Greek)
+17. The Woman of Thebes (in some versions)
+10. Medusa's victims (Greek)
+11. Eurydice (Greek)
+12. Echo (Greek)
+13. Narcissus (Greek)
+14. Pentheus (Greek)
+15. Bluebeard's Wife (Folklore)
+16. Cupid and Psyche's Sisters (Greek)
+18. The Maidens of Artemis (various myths)
+19. The Maidens of Athena (Erichthonius myth)
+19. The Erinyes and Orestes (Greek)
+20. The Hunter Lynceus (variant myth)
+
+
