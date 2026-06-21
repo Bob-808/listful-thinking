@@ -72,14 +72,6 @@ button {
     font-size: 12px;
 }
 
-/* Mode select */
-.mode-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 16px;
-}
-
 /* Panels */
 .panel {
     background-color: #2b3038;
@@ -96,36 +88,31 @@ button {
     margin-bottom: 12px;
 }
 
-.mode-label {
-    font-weight: bold;
-}
-
-/* Question */
-.question-text {
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-
-.category-text {
+.question-counter {
     font-size: 14px;
-    color: #aaaaaa;
+    color: #cccccc;
 }
 
 /* Answers */
 .answers-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .answer-button {
+    flex: 1 1 calc(50% - 10px); /* 2 per row on phone */
+    max-width: 200px;           /* 4–5 per row on desktop */
     background-color: #3b4250;
     color: #ffffff;
-    padding: 8px 10px;
-    border-radius: 4px;
-    min-width: 120px;
-    text-align: left;
-    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .answer-button.revealed {
@@ -133,11 +120,14 @@ button {
     color: #000000;
 }
 
-/* Controls */
+/* Shared controls */
 .controls-panel {
     display: flex;
     justify-content: flex-end;
     gap: 8px;
+    margin-bottom: 12px;
+    background: none;
+    padding: 0;
 }
 
 /* Players */
@@ -147,11 +137,20 @@ button {
     gap: 8px;
 }
 
+#multiplayer-panel,
+#challenge-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .player-pill {
     padding: 6px 10px;
     border-radius: 999px;
     background-color: #3b4250;
     font-size: 13px;
+    position: relative;
+    padding-right: 26px;
 }
 
 .player-pill.active {
@@ -164,12 +163,18 @@ button {
     text-decoration: line-through;
 }
 
-/* Challenge panel */
-#challenge-info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 14px;
+.edit-icon {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.edit-icon:hover {
+    opacity: 1;
 }
 
 /* Modal */
@@ -192,6 +197,21 @@ button {
 
 .modal-message {
     margin-bottom: 16px;
+}
+
+.modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 .hidden {

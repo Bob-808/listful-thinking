@@ -1,106 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Listful Thinking</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div id="app">
+<div id="app">
 
-        <!-- MODE SELECT SCREEN -->
-        <div id="mode-select-screen" class="screen active-screen">
-            <h1>Listful Thinking</h1>
-            <p class="subtitle">Select how you want to play. Only the moderator sees the screen.</p>
+    <!-- MODE SELECT SCREEN -->
+    <div id="mode-select-screen" class="screen active-screen">
+        <h1>Listful Thinking</h1>
+        <div class="mode-buttons">
+            <button id="btn-mode-multiplayer" class="primary-button">Classic Multiplayer</button>
+            <button id="btn-mode-challenge" class="primary-button">Moderator Challenge</button>
+            <button id="btn-instructions" class="secondary-button">Instructions</button>
+        </div>
+    </div>
 
-            <div class="mode-buttons">
-                <button id="btn-mode-multiplayer" class="primary-button">
-                    Classic Multiplayer
-                </button>
-                <button id="btn-mode-challenge" class="primary-button">
-                    Moderator Challenge
-                </button>
-            </div>
+    <!-- INSTRUCTIONS SCREEN -->
+    <div id="instructions-screen" class="screen">
+        <h2>Instructions</h2>
+        <p class="subtitle">Moderator reads the question, players answer verbally.</p>
+        <button id="btn-back-from-instructions" class="secondary-button">Back</button>
+    </div>
 
-            <button id="btn-instructions" class="secondary-button">
-                Instructions
-            </button>
+    <!-- GAME SCREEN -->
+    <div id="game-screen" class="screen">
+
+        <div class="top-bar">
+            <div id="mode-label" class="mode-label"></div>
+            <div id="question-counter" class="question-counter"></div>
+            <button id="btn-back-to-modes" class="secondary-button small-button">Back to Modes</button>
         </div>
 
-        <!-- INSTRUCTIONS SCREEN (CONTENT TO BE WRITTEN BY YOU) -->
-        <div id="instructions-screen" class="screen">
-            <h2>Instructions</h2>
-            <p>
-                This is a placeholder. You can replace this text with your own detailed instructions.
-                Only the moderator should ever see the screen. Players answer verbally.
-            </p>
-            <button id="btn-back-from-instructions" class="secondary-button">
-                Back
-            </button>
+        <!-- MULTIPLAYER PANEL -->
+        <div id="multiplayer-panel" class="panel">
+            <h3>Players</h3>
+
+            <div id="players-container"></div>
+
+            <button id="btn-add-player" class="secondary-button small-button">Add Player</button>
         </div>
 
-        <!-- GAME SCREEN -->
-        <div id="game-screen" class="screen">
-            <div class="top-bar">
-                <div id="mode-label" class="mode-label"></div>
-                <button id="btn-back-to-modes" class="secondary-button small-button">
-                    Back to Modes
-                </button>
-            </div>
-
-            <!-- MULTIPLAYER SCOREBOARD -->
-            <div id="multiplayer-panel" class="panel">
-                <h3>Players</h3>
-                <div id="players-container"></div>
-                <button id="btn-add-player" class="secondary-button small-button">
-                    Add Player
-                </button>
-            </div>
-
-            <!-- CHALLENGE SCORE PANEL -->
-            <div id="challenge-panel" class="panel">
-                <h3>Moderator Challenge</h3>
-                <div id="challenge-info">
-                    <div>Round: <span id="challenge-round">1</span></div>
-                    <div>Correct this round: <span id="challenge-correct">0</span></div>
-                    <div>Misses this round: <span id="challenge-misses">0</span></div>
-                </div>
-            </div>
-
-            <!-- QUESTION AREA -->
-            <div id="question-panel" class="panel">
-                <div id="question-text" class="question-text"></div>
-                <div id="category-text" class="category-text"></div>
-            </div>
-
-            <!-- ANSWERS AREA -->
-            <div id="answers-panel" class="panel">
-                <div id="answers-container" class="answers-container"></div>
-            </div>
-
-            <!-- CONTROL BUTTONS -->
-            <div id="controls-panel" class="panel controls-panel">
-                <button id="btn-wrong-answer" class="danger-button">
-                    Wrong Answer
-                </button>
-                <button id="btn-next-question" class="primary-button">
-                    Next Question
-                </button>
+        <!-- CHALLENGE PANEL -->
+        <div id="challenge-panel" class="panel">
+            <h3>Moderator Challenge</h3>
+            <div id="challenge-info">
+                <div>Round: <span id="challenge-round">1</span></div>
+                <div>Correct: <span id="challenge-correct">0</span></div>
+                <div>Misses: <span id="challenge-misses">0</span></div>
             </div>
         </div>
 
-        <!-- MODAL OVERLAY -->
-        <div id="modal-overlay" class="modal-overlay hidden">
-            <div class="modal">
-                <div id="modal-message" class="modal-message"></div>
-                <button id="btn-modal-close" class="primary-button">
-                    OK
-                </button>
-            </div>
+        <!-- SHARED CONTROL BUTTONS -->
+        <div id="controls-panel" class="controls-panel">
+            <button id="wrong-answer-btn" class="danger-button small-button">Wrong</button>
+            <button id="next-question-btn" class="primary-button small-button">Next Question</button>
         </div>
+
+        <!-- QUESTION -->
+        <div class="panel">
+            <div id="category-text" class="category-text"></div>
+            <div id="question-text" class="question-text"></div>
+        </div>
+
+        <!-- ANSWERS -->
+        <div id="answers-container" class="answers-container"></div>
 
     </div>
 
-    <script src="app.js"></script>
+    <!-- MODAL OVERLAY -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal">
+
+            <!-- Message text -->
+            <div id="modal-message" class="modal-message"></div>
+
+            <!-- Optional input field -->
+            <input id="modal-input" class="modal-input hidden" type="text" />
+
+            <!-- Button row -->
+            <div id="modal-buttons" class="modal-buttons">
+                <button id="modal-confirm" class="primary-button small-button">OK</button>
+                <button id="modal-cancel" class="secondary-button small-button hidden">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
