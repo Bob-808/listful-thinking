@@ -1,65 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listful Thinking</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Listful Thinking</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div id="app">
 
-  <!-- SETUP SCREEN -->
-  <div id="setup" class="screen">
-    <h1 class="title">Listful Thinking</h1>
+        <!-- MODE SELECT SCREEN -->
+        <div id="mode-select-screen" class="screen active-screen">
+            <h1>Listful Thinking</h1>
+            <p class="subtitle">Select how you want to play. Only the moderator sees the screen.</p>
 
-    <div class="card">
-      <h2 class="section-title">Add Players</h2>
+            <div class="mode-buttons">
+                <button id="btn-mode-multiplayer" class="primary-button">
+                    Classic Multiplayer
+                </button>
+                <button id="btn-mode-challenge" class="primary-button">
+                    Moderator Challenge
+                </button>
+            </div>
 
-      <div class="player-input-row">
-        <input id="playerInput" type="text" placeholder="Player name">
-        <button onclick="addPlayer()" class="btn primary">Add</button>
-      </div>
+            <button id="btn-instructions" class="secondary-button">
+                Instructions
+            </button>
+        </div>
 
-      <div id="playerList" class="player-list"></div>
+        <!-- INSTRUCTIONS SCREEN (CONTENT TO BE WRITTEN BY YOU) -->
+        <div id="instructions-screen" class="screen">
+            <h2>Instructions</h2>
+            <p>
+                This is a placeholder. You can replace this text with your own detailed instructions.
+                Only the moderator should ever see the screen. Players answer verbally.
+            </p>
+            <button id="btn-back-from-instructions" class="secondary-button">
+                Back
+            </button>
+        </div>
 
-      <button onclick="startGame()" class="btn start-btn">Start Game</button>
+        <!-- GAME SCREEN -->
+        <div id="game-screen" class="screen">
+            <div class="top-bar">
+                <div id="mode-label" class="mode-label"></div>
+                <button id="btn-back-to-modes" class="secondary-button small-button">
+                    Back to Modes
+                </button>
+            </div>
+
+            <!-- MULTIPLAYER SCOREBOARD -->
+            <div id="multiplayer-panel" class="panel">
+                <h3>Players</h3>
+                <div id="players-container"></div>
+                <button id="btn-add-player" class="secondary-button small-button">
+                    Add Player
+                </button>
+            </div>
+
+            <!-- CHALLENGE SCORE PANEL -->
+            <div id="challenge-panel" class="panel">
+                <h3>Moderator Challenge</h3>
+                <div id="challenge-info">
+                    <div>Round: <span id="challenge-round">1</span></div>
+                    <div>Correct this round: <span id="challenge-correct">0</span></div>
+                    <div>Misses this round: <span id="challenge-misses">0</span></div>
+                </div>
+            </div>
+
+            <!-- QUESTION AREA -->
+            <div id="question-panel" class="panel">
+                <div id="question-text" class="question-text"></div>
+                <div id="category-text" class="category-text"></div>
+            </div>
+
+            <!-- ANSWERS AREA -->
+            <div id="answers-panel" class="panel">
+                <div id="answers-container" class="answers-container"></div>
+            </div>
+
+            <!-- CONTROL BUTTONS -->
+            <div id="controls-panel" class="panel controls-panel">
+                <button id="btn-wrong-answer" class="danger-button">
+                    Wrong Answer
+                </button>
+                <button id="btn-next-question" class="primary-button">
+                    Next Question
+                </button>
+            </div>
+        </div>
+
+        <!-- MODAL OVERLAY -->
+        <div id="modal-overlay" class="modal-overlay hidden">
+            <div class="modal">
+                <div id="modal-message" class="modal-message"></div>
+                <button id="btn-modal-close" class="primary-button">
+                    OK
+                </button>
+            </div>
+        </div>
+
     </div>
-  </div>
 
-  <!-- GAME SCREEN -->
-  <div id="game" class="screen" style="display:none;">
-
-    <div class="game-header">
-      <div id="currentPlayer" class="current-player"></div>
-    </div>
-
-    <div class="card">
-
-      <div id="categoryLabel" class="category-label"></div>
-
-      <div id="question" class="question"></div>
-
-      <div id="answers" class="answers"></div>
-
-      <!-- SCOREBOARD + WRONG BUTTON -->
-      <div class="score-and-wrong">
-        <div id="scoreboard" class="scoreboard"></div>
-        <button class="btn danger wrong-btn" onclick="markWrong()">Wrong Answer</button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- MODAL -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <h2 id="modalTitle"></h2>
-      <p id="modalMessage"></p>
-      <button onclick="closeModal()" class="btn primary modal-btn">OK</button>
-    </div>
-  </div>
-
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
