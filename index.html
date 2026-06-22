@@ -10,9 +10,15 @@
 <body>
 <div id="app">
 
+
+	
     <!-- MODE SELECT SCREEN -->
     <div id="mode-select-screen" class="screen active-screen">
-        <h1>Listful Thinking</h1>
+        <h1 class="title-with-version">
+			Listful Thinking
+			<span id="version-label" class="version-label"></span>
+		</h1>
+
         <div class="mode-buttons">
             <button id="btn-mode-multiplayer" class="primary-button">Classic Multiplayer</button>
             <button id="btn-mode-challenge" class="primary-button">Moderator Challenge</button>
@@ -20,12 +26,12 @@
         </div>
     </div>
 
-    <!-- INSTRUCTIONS SCREEN -->
-    <div id="instructions-screen" class="screen">
-        <h2>Instructions</h2>
-        <p class="subtitle">Moderator reads the question, players answer verbally.</p>
-        <button id="btn-back-from-instructions" class="secondary-button">Back</button>
-    </div>
+	<!-- INSTRUCTIONS SCREEN -->
+	<div id="instructions-screen" class="screen">
+		<h2>Instructions</h2>
+		<div id="instructions-content" class="instructions-content"></div>
+		<button id="btn-back-from-instructions" class="secondary-button">Back</button>
+	</div>
 
     <!-- GAME SCREEN -->
     <div id="game-screen" class="screen">

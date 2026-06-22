@@ -69,6 +69,11 @@ const modalMessage = document.getElementById("modal-message");
 const modalInput = document.getElementById("modal-input");
 const modalConfirm = document.getElementById("modal-confirm");
 const modalCancel = document.getElementById("modal-cancel");
+// ---------------------------------------------------------------------
+// VERSION
+// ---------------------------------------------------------------------
+const APP_VERSION = "1.6.0";
+
 
 let modalCallback = null;
 
@@ -130,7 +135,14 @@ btnModeChallenge.addEventListener("click", () => {
     startChallengeMode();
 });
 
-btnInstructions.addEventListener("click", () => showScreen("instructions-screen"));
+btnInstructions.addEventListener("click", () => {
+    fetch("instructions.html")
+        .then(r => r.text())
+        .then(html => {
+            document.getElementById("instructions-content").innerHTML = html;
+            showScreen("instructions-screen");
+        });
+});
 btnBackFromInstructions.addEventListener("click", () => showScreen("mode-select-screen"));
 
 btnBackToModes.addEventListener("click", () => {
@@ -426,3 +438,4 @@ btnNextQuestion.addEventListener("click", () => {
 loadQuestions().then(() => {
     showScreen("mode-select-screen");
 });
+	document.getElementById("version-label").textContent = `v${APP_VERSION}`;
